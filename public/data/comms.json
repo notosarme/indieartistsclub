@@ -223,26 +223,14 @@
     ],
     "int-sites": [
           {
-            "link": "",
-            "title": "",
-            "links": [
-              {
-                "link": "",
-                "title": ""
-              }
-            ],
-            "description": ""
+            "link": "https://boosty.to/?locale=en_US",
+            "title": "Boosty.to",
+            "description": "Mainly used by Russian artists - it works like a commission service website and Patreon service. Allows Russians to take international commissions."
           },
           {
-            "link": "",
-            "title": "",
-            "links": [
-              {
-                "link": "",
-                "title": ""
-              }
-            ],
-            "description": ""
+            "link": "https://skeb.jp/",
+            "title": "Skeb",
+            "description": "A Japanese website that requires a Japanese bank account to sell on, but allows international clients. You can only send in a basic description of what you want, and cannot talk with the artists about the commission outside that. They then return you a finished piece."
           }
     ]
 }
