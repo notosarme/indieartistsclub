@@ -1,0 +1,26 @@
+{
+  "selling": [
+    {
+      "title": "Selling Example Title 1",
+      "link": "https://example.com/selling/page1",
+      "description": "This is the description for Selling Example Title 1.\n"
+    },
+    {
+      "title": "Selling Example Title 2",
+      "link": "https://example.com/selling/page2",
+      "description": "This is the description for Selling Example Title 2."
+    }
+  ],
+  "making": [
+    {
+      "title": "Making Example Title 1",
+      "link": "https://example.com/making/page1",
+      "description": "This is the description for Making Example Title 1."
+    },
+    {
+      "title": "Making Example Title 2",
+      "link": "https://example.com/making/page2",
+      "description": "This is the description for Making Example Title 2."
+    }
+  ]
+}
