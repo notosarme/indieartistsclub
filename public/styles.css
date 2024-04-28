@@ -28,14 +28,14 @@ a {
   background-color: var(--primary);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
   #main-box {
     max-width: 80%;
     width: 80%;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   #main-box {
     max-width: 100%;
     width: 100%;
@@ -61,7 +61,7 @@ a {
 }
 
 .button-box {
-  /* min-height: 50px; */
+  min-height: 70px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

@@ -1,5 +1,17 @@
 // const header = document.querySelector('.header');
 const sidebar = document.getElementById('quick-access');
+const header = document.querySelector('nav');
+
+function loadHeader() {
+    console.log(header);
+    header.innerHTML = 
+    `
+        <a href="/" class="button">Home</a>
+        <a href="/resources" class="button">Resources</a>
+        <a href="/about.html" class="button">About</a>
+        <a href="/contact.html" class="button">Contact</a>
+    `
+}
 
 function loadSidebar() {
     sidebar.innerHTML +=
@@ -15,4 +27,7 @@ function loadSidebar() {
     `
 }
 
+loadHeader();
 loadSidebar();
+
+// <a href="/blog.html" class="button">Blog</a>
