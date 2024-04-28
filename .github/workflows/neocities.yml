@@ -1,17 +1,14 @@
-# Author: Bret Comnes - Modified by M-Valentino to trigger on merges.
-# License: MIT
+name: deploy
 
-name: Deploy to neocities
-
-# Trigger on push to main and when any branch is merged into main
 on:
+  # https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/
+  workflow_dispatch:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
-    types: [closed]
+    # only run deploys when dist changes
+    paths:
+      - 'public/**'
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities
@@ -22,11 +19,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v1
+    # # Set up any tools and build steps here
+    # # This example uses a Node.js toolchain to build a site
+    # - name: Use Node.js
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: lts/*
+    # - name: Install deps and build
+    #   run: |
+    #     npm i
+    #     npm run build
     # When the dist_dir is ready, deploy it to neocities
+    # # get api key at
+    # https://neocities.org/settings/conorsheehan1#api_key
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
       with:
-        api_token: ${{ secrets.NEOCITIES_API_KEY }}
-        cleanup: true
-        dist_dir: public
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        dist_dir: dist
