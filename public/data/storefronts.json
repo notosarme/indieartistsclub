@@ -1,0 +1,122 @@
+{
+    "digital-storefronts": [
+        {
+            "link": "https://ko-fi.com/",
+            "title": "Ko-Fi",
+            "description": "A very popular website for receiving tips (donations), commissions, and monthly memberships. You can provide any service, physical or digital. There is a gallery option for your page, and you can sell fixed digital content there as well. They take a 5% fee, or 0% if you pay for their premium membership (it's also 0% on donations for everyone, though you still get hit with Paypal/Stripe fees). They do not allow pornography, nudity, obscene, or violent content.",
+            "links": [
+                {
+                    "link": "https://help.ko-fi.com/hc/en-us/articles/360016170433-Using-Ko-fi-for-Commissions-and-Services",
+                    "title": "Commission info"
+                },
+                {
+                    "link":"https://help.ko-fi.com/hc/en-us/articles/360013140633-Supporter-payments-FAQ",
+                    "title":"FAQ"
+                },
+                {
+                    "link":"https://more.ko-fi.com/terms",
+                    "title":"TOS"
+                }
+            ]
+        },
+        {
+            "link": "https://www.bigcartel.com/",
+            "title": "Big Cartel",
+            "links": [
+                {
+                    "link": "https://www.bigcartel.com/resources/help",
+                    "title": "All Resources"
+                }
+            ],
+            "description": "A custom storefront where you pay a set monthly fee instead of transaction fees: $0 for 5 products, and it goes up from there. You can sell physical goods, digital goods, and even do art commissions through it. It just is done in a more hands-on way - emailing the client after they pay you to get the details, or requesting they email you. They allow NSFW content, though censor it in your storefront display."
+        },
+        {
+            "link": "https://www.etsy.com/ca/market/digital_art_commission",
+            "title": "Etsy",
+            "links": [
+                {
+                    "link": "https://www.etsy.com/ca/sell?ref=ftr",
+                    "title": "Getting Started"
+                },
+                {
+                    "link": "https://help.etsy.com/hc/en-us?segment=shopping",
+                    "title": "Help"
+                },
+                {
+                    "link": "https://www.etsy.com/ca/legal/terms-of-use?ref=ftr",
+                    "title": "TOS"
+                }
+            ],
+            "description": "Allows you to sell physical and digital content, along with commissions. There is a $0.20 fee for listing an item, and a 6.5% transaction fee. You can pay to promote yourself on the site. <a href=\"https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy?segment=selling\">Full fee breakdown.</a> They allow sexually explicit content but it must be censored on the site itself, and no pornography <a href=\"https://www.etsy.com/legal/policy/listing-mature-content-correctly/242665462117\">(mature content policy)</a>."
+            
+        },
+        {
+            "link": "https://www.storenvy.com/",
+            "title": "Storenvy",
+            "description": ""
+        },
+        {
+            "link": "https://www.shopify.com/",
+            "title": "Shopfiy",
+            "description": ""
+        },
+        {
+            "link": "https://www.godaddy.com/en-ca/websites/online-store",
+            "title": "GoDaddy Storefront",
+            "description": ""
+        },
+        {
+            "link": "https://www.artspan.com",
+            "title": "Art Span",
+            "description": ""
+        },
+        {
+            "link": "https://www.squarespace.com/",
+            "title": "Squarespace",
+            "description": ""
+        },
+        {
+            "link": "https://fineartamerica.com/",
+            "title": "Fine Art America",
+            "description": ""
+        },
+        {
+            "link": "https://en-ca.wordpress.org/plugins/woocommerce/",
+            "title": "Wordpress + Woocommerce",
+            "description": ""
+        },
+        {
+            "link": "https://www.wix.com/",
+            "title": "Wix",
+            "description": ""
+        }
+    ],
+    "art-photo-prints": [
+        {
+            "link": "",
+            "title": "",
+            "description": ""
+        }
+    ],
+    "print-shopfronts": [
+        {
+            "link": "",
+            "title": "",
+            "description": ""
+        }
+    ],
+    "print-services": [
+        {
+            "link": "",
+            "title": "",
+            "description": ""
+        }
+    ],
+    "related-services": [
+        {
+            "link": "",
+            "title": "",
+            "description": ""
+        }
+    ]
+}

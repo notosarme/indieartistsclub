@@ -33,6 +33,21 @@ function fetchDataAndPopulateDL() {
             dd.appendChild(p);
           });
 
+          //If links, add below description
+          if (item.links && item.links.length > 0) {
+            var linksParagraph = document.createElement('p');
+            item.links.forEach((link, index) => {
+              var a = document.createElement('a');
+              a.href = link.link;
+              a.textContent = link.title;
+              linksParagraph.appendChild(a);
+              if (index < item.links.length - 1) {
+                linksParagraph.appendChild(document.createTextNode(' | '));
+              }
+            });
+            dd.appendChild(linksParagraph);
+          }
+
           //If image, add on last
           if (item.image) {
             var img = document.createElement('img');

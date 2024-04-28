@@ -14,12 +14,13 @@ function toggleContent(element) {
 }
 
 function addCollapsibles() {
+    const collapsibleHeaders = document.querySelectorAll('.text-header.collapsible');
 
     collapsibleHeaders.forEach(header => {
         // Check if the header already contains the icon span
         if (!header.querySelector('span > i.material-icons')) {
             const iconSpan = document.createElement('span');
-            iconSpan.innerHTML = '<i class="material-icons">unfold_more</i>';
+            iconSpan.innerHTML = '<i class="material-icons">unfold_less</i>';
             header.querySelector('h2').appendChild(iconSpan);
         }
 
