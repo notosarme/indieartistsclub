@@ -14,10 +14,14 @@ function fetchDataAndPopulateDL() {
 
           //Create title & append
           var dt = document.createElement('dt');
-          var link = document.createElement('a');
-          link.href = item.link;
-          link.textContent = item.title;
-          dt.appendChild(link);
+          if (item.link) {
+            var link = document.createElement('a');
+            link.href = item.link;
+            link.textContent = item.title;
+            dt.appendChild(link);
+          } else {
+            dt.textContent = item.title;
+          }
           fragment.appendChild(dt); 
 
           //Create description & append
@@ -25,7 +29,7 @@ function fetchDataAndPopulateDL() {
           var description = item.description.split('\n');
           description.forEach(paragraph => {
             var p = document.createElement('p');
-            p.textContent = paragraph;
+            p.innerHTML = paragraph;
             dd.appendChild(p);
           });
 
