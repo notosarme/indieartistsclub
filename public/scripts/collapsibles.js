@@ -1,3 +1,5 @@
+const collapsibleHeaders = document.querySelectorAll('.text-header.collapsible');
+
 function toggleContent(element) {
     const content = element.nextElementSibling;
     const icon = element.querySelector('i.material-icons');
@@ -11,14 +13,7 @@ function toggleContent(element) {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    fetch('/quick-access.txt')
-      .then(response => response.text())
-      .then(data => {
-          document.getElementById('quick-access').innerHTML = data;
-      });
-
-    const collapsibleHeaders = document.querySelectorAll('.text-header.collapsible');
+function addCollapsibles() {
 
     collapsibleHeaders.forEach(header => {
         // Check if the header already contains the icon span
@@ -32,4 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
             toggleContent(this);
         });
     });
-});
+};
+
+addCollapsibles();
