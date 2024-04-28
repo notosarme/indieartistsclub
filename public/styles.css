@@ -2,6 +2,7 @@
   --primary: #b2bab3;
   --secondary: #66776d;
   --secondary-dark: #3c4d43;
+  overflow-y: scroll;
 }
 
 body {
