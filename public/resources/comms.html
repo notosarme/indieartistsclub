@@ -16,18 +16,21 @@
     />
 
     <link rel="stylesheet" href="/styles.css" />
+    <script src="/scripts/dataListJson.js" defer></script>
     <script src="/scripts/collapsibles.js" defer></script>
     <script src="/scripts/templates.js" defer></script>
   </head>
   <body id="comms">
     <div id="main-box">
       <header class="header-box"><h1>The Online Indie Artists Club</h1></header>
+
       <div class="button-box">
         <a href="/" class="button">Home</a>
         <a href="/resources" class="button">Resources</a>
         <a href="/about.html" class="button">About</a>
         <a href="/contact.html" class="button">Contact</a>
       </div>
+
       <div class="content-box">
         <div class="quick-access">
           <div class="quick-access-header"><h2>Quick Access</h2></div>
@@ -53,433 +56,14 @@
             </div>
             <div class="text-content">
               <p>
-                Make sure to do your own research before signing up to any
-                service like this.
+                Make sure to do your own research before signing up to any service like this. 
+                Sites change their fees and what exact content is allowed frequently so there is the possibility of out-of-date information. 
               </p>
-              <dl>
-                <dt>
-                  <a href="https://artistsnclients.com/">Artists&Clients</a>
-                </dt>
-                <dd>
-                  <p>
-                    <i
-                      >Artists&Clients is an art commissions marketplace with
-                      the goal and tools to make work simple and straightforward
-                      for both artists and clients. We provide all the tools to
-                      solve these problems. Extensive browsing and filtering,
-                      commissions slot management, conversations and jobs, file
-                      sharing — we make it easy.</i
-                    >
-                  </p>
-                  <p>
-                    They approve of all styles and themes, including adult
-                    content, only explicitly disallowing Lolicon in the terms of
-                    service. You must be 13+ to use the website. There is a 4.4%
-                    international fee, 15% website fee, and 2% withdrawal fee.
-                    <a href="https://artistsnclients.com/about/fee-learn-more"
-                      >Here is a breakdown</a
-                    >. Clients can tip the artist after having the job approved.
-                  </p>
-                  <p>
-                    <a href="https://artistsnclients.com/docs/getting-started"
-                      >Getting Started</a
-                    >
-                    |
-                    <a href="https://artistsnclients.com/about/help_faq"
-                      >Info</a
-                    >
-                    |
-                    <a href="https://artistsnclients.com/about/terms">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://artistree.io/">Artistree</a></dt>
-                <dd>
-                  <p>
-                    You are allowed any themes, except pornography of real life
-                    people on camera. "If the content is drawn, you're probably
-                    fine." They allow any kind of digital product or service.
-                    Their list is: artists, musicians, 3D Modelers, animators,
-                    writers, and video editors. Specifically, you just have to
-                    sell digital & custom content. They have a request form and
-                    invoicing system, you can choose what works for you.
-                  </p>
-                  <p>
-                    No fees for the artist. Clients pay an extra 6.5% instead.
-                    For every sale, they donate to Eden Reforestation. They
-                    include invoicing, forms, messaging, more content related to
-                    art sales. They have 55,000 artists on the website.
-                  </p>
-                  <p>
-                    <a href="https://artistree.io/artist-guide"
-                      >Getting Started</a
-                    >
-                    | <a href="https://artistree.io/faq">Info</a> |
-                    <a href="https://artistree.io/terms-and-conditions">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://vgen.co/">VGen</a></dt>
-                <dd>
-                  <p>
-                    <i
-                      >We help you showcase and manage your art and art
-                      businesses while connecting you to a community of fellow
-                      artists, clients, and friends.</i
-                    >
-                    Their list of services include: Illustrators, riggers,
-                    graphic designers, video editors, animators, musicians, "and
-                    more." They do focus on vtuber-esque content, but you're not
-                    restricted to it. They offer a Skeb-like service called
-                    <a
-                      href="https://help.vgen.co/hc/en-us/articles/12820428378263-Can-I-offer-Skeb-like-commissions-on-VGen"
-                      >"Surprise me" where you can define your rules around
-                      it.</a
-                    >
-                    You need to be invited into the site, currently.
-                  </p>
-                  <p>
-                    They allow "adult content" but not "porn" - there is a full
-                    breakdown of their NSFW policy
-                    <a
-                      href="https://help.vgen.co/hc/en-us/articles/12733211123351-NSFW-Policy"
-                      >here</a
-                    >. They charge a 5% service fee + payment processing fee to
-                    artists when you get a commission. It seems you can pay out
-                    with Stripe or Paypal. Standard Paypal fees for your country
-                    apply. Stripe has 2.9% + $0.30 fees for Americans, and add
-                    on an extra 1.5-2.5% for non-Americans. No specific
-                    withdrawl fees.
-                    <a
-                      href="https://help.vgen.co/hc/en-us/articles/12820094917655-What-are-VGen-s-fees"
-                      >Here's their breakdown.</a
-                    >
-                  </p>
-                  <p>
-                    <a
-                      href="https://help.vgen.co/hc/en-us/articles/12883126316951-How-VGen-works"
-                      >Getting Started</a
-                    >
-                    | <a href="https://help.vgen.co/hc/en-us">Info</a> |
-                    <a href="https://vgen.co/terms-of-service">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://arty.ooo/">Arty</a></dt>
-                <dd>
-                  <p>
-                    A basic art commission escrow - they just handle the payment
-                    middleman step.
-                    <i
-                      >Start a new commission on Arty where you'll fill in the
-                      details for the artwork, set the price in the agreed
-                      currency, and generate a unique commission link for your
-                      client. When your client visits the unique link, they'll
-                      see the commission details and can pay for it with their
-                      card or PayPal. Arty supports payments from almost anyone
-                      in the world! You're done!? Upload the finished work and
-                      Arty will securely share a sample of the commission for
-                      your client to approve.</i
-                    >
-                  </p>
-                  <p>
-                    It allows you to
-                    <i
-                      >sell commissions without disclosing your Name, Email
-                      address, PayPal, or Wise account details to
-                      commissioners.</i
-                    >
-                    There is no portfolio, advertisement, anything. It just
-                    handles payment and anonymization. Content that depicts gore
-                    or porn of minors or animals is banned, going by Australian
-                    law. They take a $1.50 + 8% fee, and accept all major cards
-                    & PayPal from clients in almost every country, and allow you
-                    to withdraw in your own currency. They do not charge a
-                    withdrawal fee, but PayPal or whatever other service you use
-                    might.
-                  </p>
-                  <p>
-                    <a href="https://arty.ooo/about">Getting Started</a> |
-                    <a href="https://arty.ooo/#faq">FAQ</a> |
-                    <a href="https://arty.ooo/terms">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://ych.commishes.com/">YCH.commishes</a></dt>
-                <dd>
-                  <p>
-                    <i
-                      >The site was built by a small team (programmer + artist)
-                      who considered that auctioning art was way too
-                      inconvenient with the existing options. Also, we believe
-                      that people do not only want to buy art from artists they
-                      know but discover new people who make great art.
-                      YCH.Commishes treats all the auctions equally, they appear
-                      on the homepage until they're finished and archived. This
-                      makes the system very useful to discover new art, hunt for
-                      a good bargain and to give exposure to artists who are
-                      selling their art.</i
-                    >
-                  </p>
-                  <p>
-                    A site to sell characters/adoptables/Your Characters Here,
-                    and has auctions built in. There are specific rules to
-                    protect against adoptable drama, like "refund take back"
-                    being banned. You can also list rules around your
-                    adoptables, but they are not enforcable by YCH, which
-                    instead takes the stance that the buyer has full rights to
-                    the character. You can resell if you own a character, with
-                    specific rules around that as well.
-                  </p>
-                  <p>
-                    No copyrighted names or characters, but species that there
-                    are multiple of, as in there are not a Single Specific
-                    Character of that type (like Pokemon, MLP ponies, etc) are
-                    fine. Closed species are not considered defensible, so are
-                    free to be sold. You can do incentives, goals, and upgrades
-                    for auctions. They have
-                    <a href="https://wiki.commishes.com/en/rules"
-                      >a wide rating system</a
-                    >: Safe, Questionable, Explicit, and Shock. They seem to go
-                    by Paypal fees.
-                  </p>
-                  <p>
-                    <a href="https://ych.commishes.com/home/about/"
-                      >Getting Started</a
-                    >
-                    | <a href="https://ych.commishes.com/home/faq/">Info</a> |
-                    <a href="https://wiki.commishes.com/en/rules">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://artconomy.com/">Artconomy</a></dt>
-                <dd>
-                  <p>
-                    <i>
-                      Artconomy is your online marketplace for custom art,
-                      especially art of your characters! We provide a safe
-                      platform for artists and commissioners to work with each
-                      other without the frustration of ad-hoc solutions to
-                      tracking outstanding work, finding available artists, and
-                      character profiles.
-                    </i>
-                    A furry-focused site, split into Clean, Risque, Adult
-                    (vanilla porn), and Offensive (disturbing). They feature
-                    character profiles, storefronts, order management, escrow,
-                    contract agreements, etc.
-                  </p>
-                  <p>
-                    The site goes by Texan law, and only explicitly bans
-                    "non-art content" and explicit photos or photomanips of
-                    humans, though you must strictly tag your content. They
-                    offer free, basic, and landscape plans - free plans allow
-                    you to track one order at a time. Their transaction fees
-                    are... confusing, but don't seem too bad. There's a
-                    calculator available so you can see how much in fees you
-                    will accrue per price you set. It seems to be like other
-                    Stripe sites pricing, but some more info is
-                    <a
-                      href="https://artconomy.com/blog/posts/2023/03/21/major-site-update-2023-plans-fees-refinements-and-features/"
-                      >here</a
-                    >.
-                  </p>
-                  <p>
-                    <a href="https://artconomy.com/landing/artist-tools/"
-                      >Getting Started</a
-                    >
-                    |
-                    <a href="https://artconomy.com/faq/about/what-is-artconomy/"
-                      >FAQ</a
-                    >
-                    |
-                    <a
-                      href="https://artconomy.com/legal-and-policies/terms-of-service/"
-                      >TOS</a
-                    >
-                  </p>
-                </dd>
-
-                <dt><a href="https://commiss.io/">Commiss.io</a></dt>
-                <dd>
-                  <p>
-                    <i
-                      >Commiss.io is making it easier and safer to buy
-                      commissions, physical products, and digital downloads
-                      online. Commiss.io was developed by creators and art
-                      enthusiasts, passionate about giving creators powerful
-                      tools to build their marketplace and manage their
-                      sales.</i
-                    >
-                    A project that is still in alpha and does not have a lot of
-                    information.
-                  </p>
-                  <p>
-                    You can host custom projects (commissions) and digital
-                    downloads (premade content). They follow American
-                    <a href="https://commiss.io/about/copyright">DMCA laws</a>,
-                    and ban typical hateful content and self harm content. They
-                    have a loose "adult content is allowed" policy, but be
-                    warned that io sites in general have a "no pornography"
-                    rule. They use Stripe, and have a bundled website and Stripe
-                    fee of 8.4% + 30 cents. They have a rolling deposit into
-                    your bank account. They also offer a $10/month pro option.
-                    <a
-                      href="https://support.commiss.io/en/articles/481402-how-do-commiss-io-s-fees-work"
-                      >Breakdown here</a
-                    >.
-                  </p>
-                  <p>
-                    <a
-                      href="https://support.commiss.io/en/articles/449197-getting-started-on-commiss-io"
-                      >Getting Started</a
-                    >
-                    |
-                    <a
-                      href="https://support.commiss.io/en/collections/315824-selling-on-commiss-io"
-                      >Info</a
-                    >
-                    |
-                    <a href="https://commiss.io/about/terms">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://artcorgi.com/">Art Corgi</a></dt>
-                <dd>
-                  <p>
-                    A more "local" style digital art commission site with an
-                    emphasis on portaits and pet drawings. What is interesting
-                    about it is that it has built-in
-                    <a href="https://artcorgi.com/print-options/"
-                      >printing services</a
-                    >, basically like a RedBubble shop that clients can choose
-                    to order from and ArtCorgi handles.
-                  </p>
-                  <p>
-                    There's a strict content policy - nothing sexually explicit
-                    or "abusive". They take a massive 30% transaction fee, but
-                    do cover Paypal fees for you, at least. They also have an
-                    <a href="https://artcorgi.com/artist-contract/"
-                      >artist contract</a
-                    >
-                    you can view.
-                  </p>
-                  <p>
-                    <a href="https://artcorgi.com/how-it-works/"
-                      >Getting Started</a
-                    >
-                    | <a href="https://artcorgi.com/faq/">FAQ</a> |
-                    <a href="https://artcorgi.com/tos/">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://sketchmob.com/">Sketch Mob</a></dt>
-                <dd>
-                  <p>
-                    Custom art commission website that has a more "local" bias
-                    to it. It does allow NSFW content, as there is a toggle for
-                    it on the homescreen... though their TOS says they do not
-                    allow pornographic or sexually explicit content. The website
-                    attempts to connect customers to artists that match the
-                    specific thing they request... so there is a focus on
-                    "standardization". Good for if you want to advertise a
-                    specific style or gimmick. There is a basic print-on-demand
-                    service offered to Americans. They use Paypal only, there is
-                    a 15% transaction fee, and there is a minimum $10
-                    withdrawal.
-                  </p>
-                  <p>
-                    <a href="https://sketchmob.com/artist-guide/"
-                      >Getting Started</a
-                    >
-                    | <a href="https://sketchmob.com/faq">FAQ</a> |
-                    <a href="https://sketchmob.com/terms">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://www.mademay.com/">Made By Masters</a></dt>
-                <dd>
-                  <p>
-                    <i
-                      >#1 place to get custom, handmade, and made-to-order
-                      sculptures, portrait paintings, furniture, art, & more.</i
-                    >
-                    A very formal website, the average price people charge for
-                    commissions on this site seems to be $400. Clients put out
-                    requests which artists can answer with proposals. You have
-                    to apply to be on the website with a portfolio, and there is
-                    apparently a fee associated with it.
-                  </p>
-                  <p>
-                    <a
-                      href="https://www.mademay.com/terms-conditions-privacy-policy"
-                      >TOS</a
-                    >
-                  </p>
-                </dd>
-
-                <dt><a href="https://www.fiverr.com/">Fiverr</a></dt>
-                <dd>
-                  <p>
-                    A freelancing site that allows you to provice pretty much
-                    any digital service. While very big, it's not usually
-                    recommended as it is a worldwide site where you will often
-                    be undercut by people from countries that can undercharge
-                    you by a wide margin. Does not allow "inappropriate" or
-                    adult services. There is a 20% fee on each gig.
-                  </p>
-                  <p>
-                    <a
-                      href="https://help.fiverr.com/hc/en-us/articles/360010558038-How-Fiverr-works"
-                      >Commission info</a
-                    >
-                    |
-                    <a
-                      href="https://help.fiverr.com/hc/en-us/articles/360011421198-FAQs-for-sellers"
-                      >FAQ</a
-                    >
-                    |
-                    <a
-                      href="https://www.fiverr.com/legal-portal/legal-terms/terms-of-service"
-                      >TOS</a
-                    >
-                  </p>
-                </dd>
-
-                <dt><a href="https://ko-fi.com/">Ko-Fi</a></dt>
-                <dd>
-                  <p>
-                    A very popular website for receiving tips (donations),
-                    commissions, and monthly memberships. You can provide any
-                    service, physical or digital. There is a gallery option for
-                    your page, and you can sell fixed digital content there as
-                    well. They take a 5% fee, or 0% if you pay for their premium
-                    membership (it's also 0% on donations for everyone, though
-                    you still get hit with Paypal/Stripe fees). They do not
-                    allow pornography, nudity, obscene, or violent content.
-                  </p>
-                  <p>
-                    <a
-                      href="https://help.ko-fi.com/hc/en-us/articles/360016170433-Using-Ko-fi-for-Commissions-and-Services"
-                      >Commission info</a
-                    >
-                    |
-                    <a
-                      href="https://help.ko-fi.com/hc/en-us/articles/360013140633-Supporter-payments-FAQ"
-                      >FAQ</a
-                    >
-                    |
-                    <a href="https://more.ko-fi.com/terms">TOS</a>
-                  </p>
-                </dd>
-              </dl>
+              <dl></dl>
+              
               <p>
-                <b
-                  ><a href="./storefronts.html"
-                    >Check out more "storefront" style services here.</a
-                  ></b
-                >
-                You can offer traditional and digital commissions on most of
-                them!
+                <b><a href="./storefronts.html">Check out more "storefront" style services here.</a></b> 
+                You can offer traditional and digital commissions on most of them!
               </p>
             </div>
           </div>
@@ -518,24 +102,16 @@
             <div class="text-content">
               <ul>
                 <li>
-                  <a href="https://www.reddit.com/r/artcommission/"
-                    >r/artcommission</a
-                  >
+                  <a href="https://www.reddit.com/r/artcommission/">r/artcommission</a>
                 </li>
                 <li>
-                  <a href="https://www.reddit.com/r/artcommissions/"
-                    >r/artcommissions</a
-                  >
+                  <a href="https://www.reddit.com/r/artcommissions/">r/artcommissions</a>
                 </li>
                 <li>
-                  <a href="https://www.reddit.com/r/commissions/"
-                    >r/commissions</a
-                  >
+                  <a href="https://www.reddit.com/r/commissions/">r/commissions</a>
                 </li>
                 <li>
-                  <a href="https://www.reddit.com/r/artbusiness/"
-                    >r/artbusiness</a
-                  >
+                  <a href="https://www.reddit.com/r/artbusiness/">r/artbusiness</a>
                 </li>
                 <li>
                   <a href="https://www.reddit.com/r/artstore/">r/artstore</a>
@@ -544,18 +120,15 @@
                   <a href="https://www.reddit.com/r/DrawForMe/">r/DrawForMe</a>
                 </li>
                 <li>
-                  <a href="https://www.reddit.com/r/hireanartist/"
-                    >r/hireanartist</a
-                  >
+                  <a href="https://www.reddit.com/r/hireanartist/">r/hireanartist</a>
                 </li>
                 <li>
-                  <a href="https://www.reddit.com/r/HungryArtists/"
-                    >r/HungryArtists</a
-                  >
+                  <a href="https://www.reddit.com/r/HungryArtists/">r/HungryArtists</a>
                 </li>
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </div>

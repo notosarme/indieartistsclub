@@ -206,3 +206,7 @@ i {
 .collapsible {
   cursor: pointer;
 }
+
+.italics {
+  font-style: italic;
+}
