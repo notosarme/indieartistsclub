@@ -193,8 +193,20 @@ dd {
   margin-bottom: 1rem;
 }
 
+dt {
+  font-weight: bold;
+}
+
 i {
   /*border: 1px solid white;*/
   padding: 2px;
   border-radius: 5px;
+}
+
+.collapsible {
+  cursor: pointer;
+}
+
+.italics {
+  font-style: italic;
 }

@@ -16,10 +16,11 @@
     />
 
     <link rel="stylesheet" href="/styles.css" />
+    <script src="/scripts/dataListJson.js" defer></script>
     <script src="/scripts/collapsibles.js" defer></script>
     <script src="/scripts/templates.js" defer></script>
   </head>
-  <body>
+  <body id="storefronts">
     <div id="main-box">
       <header class="header-box"><h1>The Online Indie Artists Club</h1></header>
       <div class="button-box">
@@ -34,7 +35,6 @@
           <div id="quick-access"></div>
         </div>
         <div class="text-content-box">
-
           <div class="container">
             <div class="text-header"><h2>Quick Jump</h2></div>
             <div class="text-content">
@@ -42,14 +42,16 @@
                 <!-- <li><a href="#merch-info">Information</a></li> -->
                 <li><a href="#digital-storefronts">Digital Storefronts</a></li>
                 <li><a href="#art-photo-prints">Art & Photo Prints Only</a></li>
-                <li><a href="#print-shopfronts">Print on Demand Shopfronts</a></li>
+                <li>
+                  <a href="#print-shopfronts">Print on Demand Shopfronts</a>
+                </li>
                 <li><a href="#print-services">Print on Demand Services</a></li>
                 <li><a href="#related-services">Related Services</a></li>
               </ul>
             </div>
           </div>
 
-          <div class="container"  id="digital-storefronts">
+          <div class="container" id="digital-storefronts">
             <div class="text-header collapsible">
               <h2>Digital Storefronts</h2>
             </div>
@@ -62,142 +64,16 @@
                 people, and then send a business card that gives their personal
                 storefront info to order from in the future.
               </p>
-              <dl>
-                <dt><a href="https://ko-fi.com/">Ko-Fi</a></dt>
-                <dd>
-                  <p>
-                    A very popular website for receiving tips (donations),
-                    commissions, and monthly memberships. You can provide any
-                    service, physical or digital. There is a gallery option for
-                    your page, and you can sell fixed digital content there as
-                    well. They take a 5% fee, or 0% if you pay for their premium
-                    membership (it's also 0% on donations for everyone, though
-                    you still get hit with Paypal/Stripe fees). They do not
-                    allow pornography, nudity, obscene, or violent content.
-                  </p>
-                  <p>
-                    <a
-                      href="https://help.ko-fi.com/hc/en-us/articles/360016170433-Using-Ko-fi-for-Commissions-and-Services"
-                      >Commission info</a
-                    >
-                    |
-                    <a
-                      href="https://help.ko-fi.com/hc/en-us/articles/360013140633-Supporter-payments-FAQ"
-                      >FAQ</a
-                    >
-                    |
-                    <a href="https://more.ko-fi.com/terms">TOS</a>
-                  </p>
-                </dd>
-
-                <dt><a href="https://www.bigcartel.com/">Big Cartel</a></dt>
-                <dd>
-                  <p>
-                    A custom storefront where you pay a set monthly fee instead
-                    of transaction fees: $0 for 5 products, and it goes up from
-                    there. You can sell physical goods, digital goods, and even
-                    do art commissions through it. It just is done in a more
-                    hands-on way - emailing the client after they pay you to get
-                    the details, or requesting they email you. They allow NSFW
-                    content, though censor it in your storefront display.
-                  </p>
-                  <p>
-                    <a href="https://www.bigcartel.com/resources/help"
-                      >All Resources</a
-                    >
-                  </p>
-                </dd>
-
-                <dt>
-                  <a
-                    href="https://www.etsy.com/ca/market/digital_art_commission"
-                    >Etsy</a
-                  >
-                </dt>
-                <dd>
-                  <p>
-                    Allows you to sell physical and digital content, along with
-                    commissions. There is a $0.20 fee for listing an item, and a
-                    6.5% transaction fee. You can pay to promote yourself on the
-                    site.
-                    <a
-                      href="https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy?segment=selling"
-                      >Full fee breakdown.</a
-                    >
-                    They allow sexually explicit content but it must be censored
-                    on the site itself, and no pornography
-                    <a
-                      href="https://www.etsy.com/legal/policy/listing-mature-content-correctly/242665462117"
-                      >(mature content policy)</a
-                    >.
-                  </p>
-                  <p>
-                    <a href="https://www.etsy.com/ca/sell?ref=ftr"
-                      >Getting Started</a
-                    >
-                    |
-                    <a href="https://help.etsy.com/hc/en-us?segment=shopping"
-                      >Help</a
-                    >
-                    |
-                    <a href="https://www.etsy.com/ca/legal/terms-of-use?ref=ftr"
-                      >TOS</a
-                    >
-                  </p>
-                </dd>
-
-                <dt><a href="https://www.storenvy.com/">Storenvy</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.shopify.com/">Shopfiy</a></dt>
-                <dd></dd>
-
-                <dt>
-                  <a href="https://www.godaddy.com/en-ca/websites/online-store"
-                    >GoDaddy Storefront</a
-                  >
-                </dt>
-                <dd></dd>
-
-                <dt><a href="https://www.artspan.com">Art Span</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.squarespace.com/">Squarespace</a></dt>
-                <dd></dd>
-
-                <dt>
-                  <a href="https://fineartamerica.com/">Fine Art America</a>
-                </dt>
-                <dd></dd>
-
-                <dt>
-                  <a href="https://en-ca.wordpress.org/plugins/woocommerce/"
-                    >Wordpress + Woocommerce</a
-                  >
-                </dt>
-                <dd></dd>
-
-                <dt><a href="https://www.wix.com/">Wix</a></dt>
-                <dd></dd>
-
-                <dt><a href=""></a></dt>
-                <dd></dd>
-
-                <dt><a href=""></a></dt>
-                <dd></dd>
-              </dl>
+              <dl></dl>
             </div>
           </div>
 
-          <div class="container"  id="art-photo-prints">
+          <div class="container" id="art-photo-prints">
             <div class="text-header collapsible">
               <h2>Art & Photo Prints Only</h2>
             </div>
             <div class="text-content">
-              <dl>
-                <dt><a href=""></a></dt>
-                <dd></dd>
-              </dl>
+              <dl></dl>
             </div>
           </div>
 
@@ -211,71 +87,7 @@
                 different templates, and upload it. The website will do all the
                 work advertising it, printing it, and shipping it.
               </p>
-              <dl>
-                <dt><a href="https://www.redbubble.com/">RedBubble</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.spreadshirt.ca/">SpreadShirt</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.cafepress.ca/">CafePress</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.zazzle.ca/">Zazzle</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.threadless.com/">Threadless</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.printful.com/ca">Printful</a></dt>
-                <dd>Often combo'd with Etsy</dd>
-
-                <dt>
-                  <a href="https://fineartamerica.com/">Fine Art America</a>
-                </dt>
-                <dd></dd>
-
-                <dt><a href="https://www.inprnt.com/">Inprnt</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://printify.com/">Printify</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://sellfy.com/">Sellfy</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.gelato.com/ca">Gelato</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://teelaunch.com/">Teelaunch</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.framebridge.com/">Framebridge</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://iprintfromhome.com/">iPfH</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://awkwardstyles.com/">Awkward Styles</a></dt>
-                <dd></dd>
-
-                <dt>
-                  <a href="https://www.theprintspace.com/">The Print Space</a>
-                </dt>
-                <dd></dd>
-
-                <dt><a href="https://www.jondo.com">Jondo</a></dt>
-                <dd></dd>
-
-                <dt><a href=""></a></dt>
-                <dd></dd>
-
-                <dt><a href=""></a></dt>
-                <dd></dd>
-
-                <dt><a href=""></a></dt>
-                <dd></dd>
-              </dl>
+              <dl></dl>
             </div>
           </div>
 
@@ -298,16 +110,7 @@
           <div class="container" id="related-services">
             <div class="text-header collapsible"><h2>Related Services</h2></div>
             <div class="text-content">
-              <dl>
-                <dt><a href="https://www.orderdesk.com/">OrderDesk</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.olasty.com/">Olasty</a></dt>
-                <dd></dd>
-
-                <dt><a href="https://www.artplacer.com/">Art Placer</a></dt>
-                <dd></dd>
-              </dl>
+              <dl></dl>
             </div>
           </div>
         </div>
