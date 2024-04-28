@@ -91,17 +91,106 @@
             "description": ""
         }
     ],
-    "art-photo-prints": [
+    "art-photo-prints": [],
+    "print-shopfronts": [
+        {
+            "link": "https://www.redbubble.com/",
+            "title": "RedBubble",
+            "description": ""
+        },
+        {
+            "link": "https://www.spreadshirt.ca/",
+            "title": "SpreadShirt",
+            "description": ""
+        },
+        {
+            "link": "https://www.cafepress.ca/",
+            "title": "CafePress",
+            "description": ""
+        },
+        {
+            "link": "https://www.zazzle.ca/",
+            "title": "Zazzle",
+            "description": ""
+        },
+        {
+            "link": "https://www.threadless.com/",
+            "title": "Threadless",
+            "description": ""
+        },
+        {
+            "link": "https://www.printful.com/ca",
+            "title": "Printful",
+            "description": "Often combo'd with Etsy"
+        },
+        {
+            "link": "https://fineartamerica.com/",
+            "title": "Fine Art America",
+            "description": ""
+        },
+        {
+            "link": "https://www.inprnt.com/",
+            "title": "Inprnt",
+            "description": ""
+        },
+        {
+            "link": "https://printify.com/",
+            "title": "Printify",
+            "description": ""
+        },
+        {
+            "link": "https://sellfy.com/",
+            "title": "Sellfy",
+            "description": ""
+        },
+        {
+            "link": "https://www.gelato.com/ca",
+            "title": "Gelato",
+            "description": ""
+        },
+        {
+            "link": "https://teelaunch.com/",
+            "title": "Teelaunch",
+            "description": ""
+        },
+        {
+            "link": "https://www.framebridge.com/",
+            "title": "Framebridge",
+            "description": ""
+        },
+        {
+            "link": "https://iprintfromhome.com/",
+            "title": "iPfH",
+            "description": ""
+        },
+        {
+            "link": "https://awkwardstyles.com/",
+            "title": "Awkward Styles",
+            "description": ""
+        },
+        {
+            "link": "https://www.theprintspace.com/",
+            "title": "The Print Space",
+            "description": ""
+        },
         {
             "link": "",
             "title": "",
             "description": ""
-        }
-    ],
-    "print-shopfronts": [
+        },
         {
             "link": "",
             "title": "",
+            "description": ""
+        },
+        {
+            "link": "",
+            "title": "",
+            "description": ""
+        },
+        {
+            "link": "https://www.jondo.com",
+            "title": "Jondo",
             "description": ""
         }
     ],
@@ -114,8 +203,18 @@
     ],
     "related-services": [
         {
-            "link": "",
-            "title": "",
+            "link": "https://www.orderdesk.com/",
+            "title": "OrderDesk",
+            "description": ""
+        },
+        {
+            "link": "https://www.olasty.com/",
+            "title": "Olasty",
+            "description": ""
+        },
+        {
+            "link": "https://www.artplacer.com/",
+            "title": "Art Placer",
             "description": ""
         }
     ]
