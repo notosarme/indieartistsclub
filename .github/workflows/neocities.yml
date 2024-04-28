@@ -1,10 +1,17 @@
+# Author: Bret Comnes - Modified by M-Valentino to trigger on merges.
+# License: MIT
+
 name: Deploy to neocities
 
-# only run on changes to main. Use main or master depending on whatever your default branch is called. 
+# Trigger on push to main and when any branch is merged into main
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
+    types: [closed]
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities
@@ -16,20 +23,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    # Set up any tools and build steps here
-    # This example uses a Node.js toolchain to build a site
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: lts/*
-    - name: Install deps and build
-      run: |
-        npm i
-        npm run build
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v2
+      uses: bcomnes/deploy-to-neocities@v1
       with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: false
+        api_token: ${{ secrets.NEOCITIES_API_KEY }}
+        cleanup: true
         dist_dir: public
