@@ -4,6 +4,16 @@
       "link": "https://letterpresscommons.com/printtrip/",
       "title": "Letterpress Commons",
       "description": "Everything you need to know about print shops, including a map of many across the USA."
+    },
+    {
+      "link": "https://razorbladesandaspirin.substack.com/p/a-short-guide-to-printing-a-zine",
+      "title": "A Short Guide to Printing a Zine",
+      "description": "AKA How to Lose Money But Maybe Make Friends..."
+    },
+    {
+      "link": "https://www.forgottenworlds.net/how-to-create-a-zine",
+      "title": "How to create a zine in 2023",
+      "description": "An overview of the production process, costs, and issues encountered. Includes going to a local print shop."
     }
   ],
   "printing": [
@@ -15,16 +25,24 @@
       "title": "Local libraries",
       "description": "For printer paper, B&W zines"
     },
-    
-    {
-      "link": "https://www.magcloud.com/",
-      "title": "MagCloud",
-      "description": ""
-    },
     {
       "link": "https://themselvespress.com/",
       "title": "Themselves Press",
-      "description": ""
+      "description": "<span class=\"italics\">themselves is also a zine print shop that wants to help make self publishing art more accessible through sliding scale printing prices, affordable design services, and resources to help others diy. based in <span class=\"bold\">chicago.</span></span>",
+      "links": [
+        {
+          "link": "https://themselvespress.com/faq",
+          "description": "FAQ"
+        },
+        {
+          "link": "https://themselvespress.com/pricing",
+          "description": "Pricing"
+        },
+        {
+          "link": "https://www.instagram.com/themselvespress/",
+          "description": "Instagram"
+        }
+      ]
     },
     {
       "link": "https://spinnprint.com/",
