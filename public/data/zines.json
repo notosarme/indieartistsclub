@@ -1,6 +1,11 @@
 {
   "zine-info": [
     {
+      "link": "https://nicezines.skynash.co.uk/",
+      "title": "Nice Zines",
+      "description": "Compilations of zine resources, services, events, and more!"
+    },
+    {
       "link": "https://letterpresscommons.com/printtrip/",
       "title": "Letterpress Commons",
       "description": "Everything you need to know about print shops, including a map of many across the USA."
@@ -26,43 +31,65 @@
       "description": "For printer paper, B&W zines"
     },
     {
+      "link": "https://www.wizd-az.com/wastedinkpublishing.html",
+      "title": "Wasted Ink Zine Distro",
+      "links": [
+        {
+          "link": "https://www.wizd-az.com/shipping-faq.html",
+          "title": "Shipping Info"
+        }
+      ],
+      "description": "Submit a form with all your details and directly chat about your options. Has designing options alongside printing options. Offers color, B&W, various paper weights, bindings, and so forth. If you have a lot of questions or need help getting started, this one is very hands-on and help-focused."
+    },
+    {
       "link": "https://themselvespress.com/",
       "title": "Themselves Press",
       "description": "<span class=\"italics\">themselves is also a zine print shop that wants to help make self publishing art more accessible through sliding scale printing prices, affordable design services, and resources to help others diy. based in <span class=\"bold\">chicago.</span></span>",
       "links": [
         {
           "link": "https://themselvespress.com/faq",
-          "description": "FAQ"
+          "title": "FAQ"
         },
         {
           "link": "https://themselvespress.com/pricing",
-          "description": "Pricing"
+          "title": "Pricing"
         },
         {
           "link": "https://www.instagram.com/themselvespress/",
-          "description": "Instagram"
+          "title": "Instagram"
         }
       ]
     },
     {
-      "link": "https://spinnprint.com/",
-      "title": "Spinn Print",
-      "description": ""
+      "link": "https://www.shortrunprinting.com/",
+      "title": "Short Run Printing, Ltd.",
+      "description": "A shop focused on the short-run market. Has options for magazine, color, and high speed b&w printing. Generates quotes which are fee- and shipping-inclusive."
+    },
+    {
+      "link": "https://www.newspaperclub.com/",
+      "title": "Newspaper Club",
+      "description": "Create and print your own newspaper on recyclable paper, in three different sizes. MOQ of 1. Worldwide shipping available. Has mini sizes that work great for zines, must have 16-64 pages.",
+      "links": [
+        {
+          "link": "https://www.newspaperclub.com/choose/mini/digital",
+          "title": "Mini Information"
+        }
+      ]
+    },
+    {
+      "link": "https://makemynewspaper.com/",
+      "title": "Make My Newspaper",
+      "description": "A more traditional newspaper printing service. Has samples and digital options. MOQ of 50."
     },
     {
       "link": "https://mixam.com/zines",
       "title": "Mixam",
-      "description": ""
+      "description": "A modern online print shop with a lot of different options, including binding, cover finishes, paper weight, and so on. Considered to be high quality. MOQ of 1."
     },
     {
-      "link": "https://www.wizd-az.com/",
-      "title": "Wasted Ink Zine Distro",
-      "description": ""
-    },
-    {
-      "link": "https://paperjamnprint.carrd.co/",
-      "title": "Paper Jam + Print",
-      "description": ""
+      "link": "https://spinnprint.com/product/saddle-stitch-booklets/",
+      "title": "Spinn Print",
+      "description": "A very reasonably priced, USA based online print shop. MOQ of 1."
     },
     {
       "link": "https://www.lulu.com/",
@@ -234,6 +261,11 @@
       "link": "",
       "title": "Ko-Fi",
       "description": ""
+    },
+    {
+      "link": "https://www.wizd-az.com/",
+      "title": "Wasted Ink Zine Distro",
+      "description": ""
     }
   ],
   "meetups": [
@@ -273,6 +305,11 @@
       "link": "https://www.reddit.com/r/zines/",
       "title": "r/zines",
       "description": ""
+    },
+    {
+      "link": "https://nicezines.skynash.co.uk/2023/08/15/zine-pricing-calculator/",
+      "title": "Zine Pricing Calculator",
+      "description": "A calculator that takes into account all costs, as well as the number of zines you plan to make. Helps you figure out a reasonable price for your zine."
     },
     {
       "link": "https://old.reddit.com/r/selfpublish/comments/h120ys/can_someone_just_post_how_much_they_make_already/",

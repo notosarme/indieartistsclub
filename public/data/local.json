@@ -48,9 +48,19 @@
       "description": "Crafting one-of-a-kind sketchbooks, tomes & fan-bindings by hand."
     },
     {
-      "link": "",
-      "title": "",
-      "description": ""
+      "link": "https://www.instagram.com/sadsackpress/",
+      "title": "Sadsack Press",
+      "description": "A collaborative small press in Chicago dedicated to producing both limited editions of fine art prints and objects often created from found and/or recycled materials."
+    },
+    {
+      "link": "https://misfeedpress.com/",
+      "title": "Misfeed Press",
+      "description": "Misfeed is a Print studio in Pittsburgh, PA specializing in zine making and multiples. Offers residency!"
+    },
+    {
+      "link": "https://paperjamnprint.carrd.co/",
+      "title": "Paper Jam + Print",
+      "description": "Paper Jam + Print is a collaborative print studio in downtown Phoenix, AZ that houses SATURNHEX, Shut Eye Press, and Wasted Ink Publishing, three presses that share a common ethos: to provide accessible, intentional, D.I.T. (Do It Together) printing opportunities."
     }
   ]
 }
