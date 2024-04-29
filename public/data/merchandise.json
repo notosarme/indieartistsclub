@@ -204,6 +204,32 @@
       "description": "There is less information about this site than the others, however they've been noted to have good satin finishes on their cards. American shipping only."
     },
     {
+      "link": "https://smartpress.com/",
+      "title": "SmartPress",
+      "description": "A pretty standard American print shop. Offers free sample sheets.",
+      "links": [
+        {
+          "link": "https://smartpress.com/shop/all",
+          "title": "Product List"
+        },
+        {
+          "link": "https://smartpress.com/pages/custom-quote",
+          "title": "Custom Quote"
+        }
+      ]
+    },
+    {
+      "link": "https://www.printivity.com/",
+      "title": "Printivity",
+      "description": "Offers price matching and 20% off your first order.",
+      "links": [
+        {
+          "link": "https://www.printivity.com/products",
+          "title": "Product List"
+        }
+      ]
+    },
+    {
       "title": "Your local print shop",
       "links": [
         {

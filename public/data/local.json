@@ -1,0 +1,21 @@
+{
+  "lists-of-lists": [
+    {
+      "link": "California Society of Printmakers - where to print?",
+      "title": "https://www.caprintmakers.org/where-to-print/",
+      "description": "A list of printmaking cooperatives and workshops in California and the rest of the USA."
+    },
+    {
+      "link": "https://www.rd.usda.gov/sites/default/files/sr40.pdf",
+      "title": "Directory of U.S. Arts and CraftsCooperative Service Cooperatives (from 1996)",
+      "description": "An oldie, but many of these still exist! Even if they don't, it's fun to look at, right? (In my opinion, it is.)"
+    }
+  ],
+  "print-and-press": [
+    {
+      "link": "https://www.spudnikpress.org/",
+      "title": "Spudnik Press",
+      "description": "An affordable and approachable community print studio in <span class=\"bold\">Chicago.</span>"
+    }
+  ]
+}
