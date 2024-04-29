@@ -1,0 +1,66 @@
+{
+  "list-of-lists": [
+    {
+      "title": "California Society of Printmakers - where to print?",
+      "link": "https://www.caprintmakers.org/where-to-print/",
+      "description": "A list of printmaking cooperatives and workshops in California and the rest of the USA."
+    },
+    {
+      "link": "https://www.rd.usda.gov/sites/default/files/sr40.pdf",
+      "title": "Directory of U.S. Arts and CraftsCooperative Service Cooperatives (from 1996)",
+      "description": "An oldie, but many of these still exist! Even if they don't, it's fun to look at, right? (In my opinion, it is.)"
+    }
+  ],
+  "print-and-press": [
+    {
+      "link": "https://www.spudnikpress.org/",
+      "title": "Spudnik Press",
+      "description": "An affordable and approachable community print studio in Chicago."
+    },
+    {
+      "link": "https://www.airpgh.org/",
+      "title": "AIR: Artists Image Resource",
+      "description": "Artist-run, non-profit print studio and image laboratory located on Pittsburgh's North Side."
+    },
+    {
+      "link": "https://chicagoprintmakers.com/",
+      "title": "Chicago Printmakers Collaborative",
+      "description": "Classes, internships, facilities, and more!"
+    },
+    {
+      "link": "https://www.perfectly-acceptable.com/",
+      "title": "Perfectly Acceptable Press",
+      "description": "A small publishing house and Risograph printing studio in Chicago."
+    },
+    {
+      "link": "https://www.bredpress.com/",
+      "title": "Bred Press",
+      "description": "Bred Press is an artist books, comics, and zine publishing house located in Chicago."
+    },
+    {
+      "link": "https://butterlettucepress.com/",
+      "title": "butterlettuce press",
+      "description": "butterlettuce is an artist-run publisher of small edition zines and prints. Our mission is to build a catalog that amplifies working-class stories, centers anti-capitalist perspectives, and rejoice in the power of print!"
+    },
+    {
+      "link": "https://www.susurratepress.com/",
+      "title": "Susurrate Press",
+      "description": "Crafting one-of-a-kind sketchbooks, tomes & fan-bindings by hand."
+    },
+    {
+      "link": "https://www.instagram.com/sadsackpress/",
+      "title": "Sadsack Press",
+      "description": "A collaborative small press in Chicago dedicated to producing both limited editions of fine art prints and objects often created from found and/or recycled materials."
+    },
+    {
+      "link": "https://misfeedpress.com/",
+      "title": "Misfeed Press",
+      "description": "Misfeed is a Print studio in Pittsburgh, PA specializing in zine making and multiples. Offers residency!"
+    },
+    {
+      "link": "https://paperjamnprint.carrd.co/",
+      "title": "Paper Jam + Print",
+      "description": "Paper Jam + Print is a collaborative print studio in downtown Phoenix, AZ that houses SATURNHEX, Shut Eye Press, and Wasted Ink Publishing, three presses that share a common ethos: to provide accessible, intentional, D.I.T. (Do It Together) printing opportunities."
+    }
+  ]
+}

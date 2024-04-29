@@ -210,3 +210,12 @@ i {
 .italics {
   font-style: italic;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+hr {
+  border: 0;
+  border: .5px solid black;
+}

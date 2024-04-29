@@ -1,4 +1,26 @@
 {
+  "zine-info": [
+    {
+      "link": "https://nicezines.skynash.co.uk/",
+      "title": "Nice Zines",
+      "description": "Compilations of zine resources, services, events, and more!"
+    },
+    {
+      "link": "https://letterpresscommons.com/printtrip/",
+      "title": "Letterpress Commons",
+      "description": "Everything you need to know about print shops, including a map of many across the USA."
+    },
+    {
+      "link": "https://razorbladesandaspirin.substack.com/p/a-short-guide-to-printing-a-zine",
+      "title": "A Short Guide to Printing a Zine",
+      "description": "AKA How to Lose Money But Maybe Make Friends..."
+    },
+    {
+      "link": "https://www.forgottenworlds.net/how-to-create-a-zine",
+      "title": "How to create a zine in 2023",
+      "description": "An overview of the production process, costs, and issues encountered. Includes going to a local print shop."
+    }
+  ],
   "printing": [
     {
       "title": "Local printer services",
@@ -9,49 +31,122 @@
       "description": "For printer paper, B&W zines"
     },
     {
-      "link": "https://www.bookbaby.com/book-printing",
-      "title": "Book Baby",
-      "description": ""
-    },
-    {
-      "link": "https://smartpress.com/",
-      "title": "SmartPress",
-      "description": ""
-    },
-    {
-      "link": "https://www.printivity.com/",
-      "title": "Printivity",
-      "description": ""
-    },
-    {
-      "link": "https://www.magcloud.com/",
-      "title": "MagCloud",
-      "description": ""
+      "link": "https://www.wizd-az.com/wastedinkpublishing.html",
+      "title": "Wasted Ink Zine Distro",
+      "links": [
+        {
+          "link": "https://www.wizd-az.com/shipping-faq.html",
+          "title": "Shipping Info"
+        }
+      ],
+      "description": "Submit a form with all your details and directly chat about your options. Has designing options alongside printing options. Offers color, B&W, various paper weights, bindings, and so forth. If you have a lot of questions or need help getting started, this one is very hands-on and help-focused."
     },
     {
       "link": "https://themselvespress.com/",
       "title": "Themselves Press",
-      "description": ""
+      "description": "<span class=\"italics\">themselves is also a zine print shop that wants to help make self publishing art more accessible through sliding scale printing prices, affordable design services, and resources to help others diy. based in <span class=\"bold\">chicago.</span></span>",
+      "links": [
+        {
+          "link": "https://themselvespress.com/faq",
+          "title": "FAQ"
+        },
+        {
+          "link": "https://themselvespress.com/pricing",
+          "title": "Pricing"
+        },
+        {
+          "link": "https://www.instagram.com/themselvespress/",
+          "title": "Instagram"
+        }
+      ]
     },
     {
-      "link": "https://spinnprint.com/",
-      "title": "Spinn Print",
-      "description": ""
+      "link": "https://www.shortrunprinting.com/",
+      "title": "Short Run Printing, Ltd.",
+      "description": "A shop focused on the short-run market. Has options for magazine, color, and high speed b&w printing. Generates quotes which are fee- and shipping-inclusive."
+    },
+    {
+      "link": "https://www.newspaperclub.com/",
+      "title": "Newspaper Club",
+      "description": "Create and print your own newspaper on recyclable paper, in three different sizes. MOQ of 1. Worldwide shipping available. Has mini sizes that work great for zines, must have 16-64 pages.",
+      "links": [
+        {
+          "link": "https://www.newspaperclub.com/choose/mini/digital",
+          "title": "Mini Information"
+        }
+      ]
+    },
+    {
+      "link": "https://makemynewspaper.com/",
+      "title": "Make My Newspaper",
+      "description": "A more traditional newspaper printing service. Has samples and digital options. MOQ of 50."
     },
     {
       "link": "https://mixam.com/zines",
       "title": "Mixam",
-      "description": ""
+      "description": "A modern online print shop with a lot of different options, including binding, cover finishes, paper weight, and so on. Considered to be high quality. MOQ of 1."
     },
     {
-      "link": "https://www.wizd-az.com/",
-      "title": "Wasted Ink Zine Distro",
-      "description": ""
+      "link": "https://spinnprint.com/product/saddle-stitch-booklets/",
+      "title": "Spinn Print",
+      "description": "A very reasonably priced, USA based online print shop. MOQ of 1."
     },
     {
-      "link": "https://paperjamnprint.carrd.co/",
-      "title": "Paper Jam + Print",
-      "description": ""
+      "link": "https://www.lulu.com/",
+      "title": "Lulu",
+      "description": "MOQ of 1, will print up to 1000+. Advertises print, photo, and comic books, and more. Has self-publishing and POD services, and even has a book printing API if you're into that sort of thing. Less technically, it can connect directly to Wix, Shopify, and Woo Commerce to print and sell books as soon as they're purchased.",
+      "links": [
+        {
+          "link": "https://www.lulu.com/create",
+          "title": "Product Types"
+        },
+        {
+          "link": "https://www.lulu.com/pricing",
+          "title": "Pricing Calculator"
+        },
+        {
+          "link": "https://www.lulu.com/sell/sell-on-your-site/print-api",
+          "title": "Lulu API"
+        }
+      ]
+    },
+    {
+      "link": "https://www.bookbaby.com/book-printing",
+      "title": "Book Baby",
+      "description": "MOQ of 25, will print up to 5000+ books in soft and hardcover. Based in the USA and has about a week of turnaround time. Uses HP Indigo and Xeikon printing presses, with the Idealliance G7 Master Facility Qualification. Includes cover options, trim sizes, perfect bound and hardcover book bindings, publisher-grade paper stocks, etc.",
+      "links": [
+        {
+          "link": "https://www.bookbaby.com/pricing",
+          "title": "Online Quoter"
+        },
+        {
+          "link": "https://www.bookbaby.com/book-printing/templates",
+          "title": "Templates"
+        },
+        {
+          "link": "https://www.bookbaby.com/book-printing/print-on-demand",
+          "title": "POD Service"
+        }
+      ]
+    },
+    {
+      "link": "https://www.bookemon.com/",
+      "title": "Bookemon",
+      "description": "<span class=\"italics\">Create Memoir, Journal, Catalog, Storybook, Photobook, Workbook, Yearbook, & More.</span> Often recommended as one of the cheaper options. They have international shipping and educator discounts. They also allow you to upload straight from word, google doc, even things like PPT. MOQ of 1, prints up to 50+. You start getting bulk discounts at 4 books. ",
+      "links": [
+        {
+          "link": "https://www.bookemon.com/tool_calc.php",
+          "title": "Pricing Calculator"
+        },
+        {
+          "link": "https://www.bookemon.com/help/section/product-offerings",
+          "title": "Product Offerings"
+        },
+        {
+          "link": "https://www.bookemon.com/help/section/order-related#turnaround-time",
+          "title": "Turnabout Time"
+        }
+      ]
     }
   ],
   "making": [
@@ -166,6 +261,11 @@
       "link": "",
       "title": "Ko-Fi",
       "description": ""
+    },
+    {
+      "link": "https://www.wizd-az.com/",
+      "title": "Wasted Ink Zine Distro",
+      "description": ""
     }
   ],
   "meetups": [
@@ -205,6 +305,22 @@
       "link": "https://www.reddit.com/r/zines/",
       "title": "r/zines",
       "description": ""
+    },
+    {
+      "link": "https://nicezines.skynash.co.uk/2023/08/15/zine-pricing-calculator/",
+      "title": "Zine Pricing Calculator",
+      "description": "A calculator that takes into account all costs, as well as the number of zines you plan to make. Helps you figure out a reasonable price for your zine."
+    },
+    {
+      "link": "https://old.reddit.com/r/selfpublish/comments/h120ys/can_someone_just_post_how_much_they_make_already/",
+      "title": "Can someone just post how much they make already?",
+      "description": "A thread on r/selfpublish where people discuss how much money they've made and some things to consider. Focus is on self published novellas."
+    },
+    {
+      "link": "https://www.thecreativepenn.com/",
+      "title": "The Creative Penn",
+      "description": "A podcast and more about all about self publishing."
     }
+
   ]
 }
