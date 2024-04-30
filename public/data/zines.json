@@ -6,6 +6,11 @@
       "description": "Compilations of zine resources, services, events, and more!"
     },
     {
+      "link": "https://zinewiki.com/wiki/Main_Page",
+      "title": "Zine Wiki",
+      "description": "Catalogs the independent press, zinesters, authors, artists, and distros."
+    },
+    {
       "link": "https://letterpresscommons.com/printtrip/",
       "title": "Letterpress Commons",
       "description": "Everything you need to know about print shops, including a map of many across the USA."
@@ -19,6 +24,21 @@
       "link": "https://www.forgottenworlds.net/how-to-create-a-zine",
       "title": "How to create a zine in 2023",
       "description": "An overview of the production process, costs, and issues encountered. Includes going to a local print shop."
+    },
+    {
+      "link": "https://guides.tricolib.brynmawr.edu/zines/",
+      "title": "TriCollege Libraries - Zines",
+      "description": "Resources for reading and making zines."
+    },
+    {
+      "link": "https://mangustaexpress.com/diy-zines",
+      "title": "How to do your own Zines. Network 23 DIY Production.",
+      "description": "Details of the how-to on printing and shipping zines. Goes into tools and stitching."
+    },
+    {
+      "link": "https://libguides.whitworth.edu/c.php?g=1144938&p=8357213",
+      "title": "Whitworth Library's Zine Collection: Making Zines",
+      "description": "Various resources on zines, from making them to how to cite them!"
     }
   ],
   "printing": [
@@ -41,6 +61,12 @@
       ],
       "description": "Submit a form with all your details and directly chat about your options. Has designing options alongside printing options. Offers color, B&W, various paper weights, bindings, and so forth. If you have a lot of questions or need help getting started, this one is very hands-on and help-focused."
     },
+    
+    {
+      "link": "https://www.shortrunprinting.com/",
+      "title": "Short Run Printing, Ltd.",
+      "description": "A shop focused on the short-run market. Has options for magazine, color, and high speed b&w printing. Generates quotes which are fee- and shipping-inclusive."
+    },
     {
       "link": "https://themselvespress.com/",
       "title": "Themselves Press",
@@ -59,27 +85,6 @@
           "title": "Instagram"
         }
       ]
-    },
-    {
-      "link": "https://www.shortrunprinting.com/",
-      "title": "Short Run Printing, Ltd.",
-      "description": "A shop focused on the short-run market. Has options for magazine, color, and high speed b&w printing. Generates quotes which are fee- and shipping-inclusive."
-    },
-    {
-      "link": "https://www.newspaperclub.com/",
-      "title": "Newspaper Club",
-      "description": "Create and print your own newspaper on recyclable paper, in three different sizes. MOQ of 1. Worldwide shipping available. Has mini sizes that work great for zines, must have 16-64 pages.",
-      "links": [
-        {
-          "link": "https://www.newspaperclub.com/choose/mini/digital",
-          "title": "Mini Information"
-        }
-      ]
-    },
-    {
-      "link": "https://makemynewspaper.com/",
-      "title": "Make My Newspaper",
-      "description": "A more traditional newspaper printing service. Has samples and digital options. MOQ of 50."
     },
     {
       "link": "https://mixam.com/zines",
@@ -147,83 +152,90 @@
           "title": "Turnabout Time"
         }
       ]
+    },
+    {
+      "link": "https://www.newspaperclub.com/",
+      "title": "Newspaper Club",
+      "description": "Create and print your own newspaper on recyclable paper, in three different sizes. MOQ of 1. Worldwide shipping available. Has mini sizes that work great for zines, must have 16-64 pages.",
+      "links": [
+        {
+          "link": "https://www.newspaperclub.com/choose/mini/digital",
+          "title": "Mini Information"
+        }
+      ]
+    },
+    {
+      "link": "https://makemynewspaper.com/",
+      "title": "Make My Newspaper",
+      "description": "A more traditional newspaper printing service. Has samples and digital options. MOQ of 50."
     }
   ],
   "making": [
     {
       "link": "https://get.adobe.com/reader/",
       "title": "Adobe PDF reader",
-      "description": ""
+      "description": "Free for some functions, about 10 dollars a month for others. The most common use is to just import the PDF of your zine, and then on \"print options\" there is a booklet option."
     },
     {
       "link": "https://nashhigh.itch.io/zinearranger",
       "title": "Zine Arranger!",
-      "description": "Convert a multi-page PDF into a zine!"
+      "description": "An open source program where you upload a multi-page pdf and arrange it into a zine layout, including eighth size, quarter size, and half size. A couple other options as well."
     },
     {
       "link": "https://risottostudio.com/pages/how-to-paginate-a-book-or-zine-across-a3-paper-sheets",
       "title": "Risotto BOOK + PAGINATION GUIDES",
-      "description": ""
+      "description": "How to Paginate Books or Zines specifically for risography and A3 Paper sheets."
     },
     {
-      "link": "",
+      "link": "https://www.canva.com/",
       "title": "Canva",
-      "description": ""
+      "description": "The free version is pretty powerful. Use a brochure type template you like as a base, and build in-app or import content you've already made!"
     },
     {
-      "link": "",
+      "link": "https://create.vista.com/",
       "title": "Vista Create",
-      "description": ""
+      "description": "VistaCreate is a free graphic design tool with thousands of free templates for you to choose from. Pick a template you love, adjust it to your project, and post or print!"
     },
     {
-      "link": "",
+      "link": "https://affinity.serif.com/en-us/publisher",
       "title": "Affinity Publisher",
-      "description": ""
+      "description": "A one-purchase alternative to Adobe inDesign, a design layout software."
     },
     {
-      "link": "",
-      "title": "InDesign",
-      "description": ""
-    },
-    {
-      "link": "",
+      "link": "https://drive.google.com/drive/folders/1w2KHEasWbld3z0DpJEoAw8vJgawNh9W6?usp=sharing",
       "title": "Zine Workshop Freebie File🎉",
-      "description": ""
+      "description": "A Google Drive directory of how to make zines, templates, and some extra links."
     },
     {
       "link": "https://snail-legs.itch.io/how-to-make-zines-zine",
       "title": "\"how to make a zine\" zine!",
-      "description": ""
+      "description": "A free zine about making zines! "
     },
     {
       "link": "https://ardencrylic.itch.io/how-to-make-a-zine",
       "title": "How To Make A Zine...Printable Zine!",
-      "description": ""
+      "description": "A free PDF + JPG print file that shows you how to make a single sheet of paper into a 6-page zine! "
     },
     {
       "link": "https://alienmelon.itch.io/electric-zine-maker",
       "title": "Electric Zine Maker (a work in progress, be gentle, hug it often)",
-      "description": ""
+      "description": "A printshop and art tool for making zines. This tool includes a drawing interface. It has a funky old school interface to it!",
+      "links": [
+        {
+          "link": "https://jeremyoduber.itch.io/js-zine",
+          "title": "A digital zine on how to digitally share zines made by it."
+        }
+      ]
     },
     {
       "link": "https://www.youtube.com/watch?v=TfLO3mnk6bY",
       "title": "How to Make Your Own Art \"Zine\" Magazine / Book in Adobe Photoshop",
-      "description": ""
-    },
-    {
-      "link": "https://libguides.whitworth.edu/c.php?g=1144938&p=8357213",
-      "title": "Whitworth Library's Zine Collection: Making Zines",
-      "description": ""
+      "description": "A Youtube video on how to lay out your pages to create a saddle stitch style booklet in any version of Photoshop."
     },
     {
       "link": "https://support.discmakers.com/hc/en-us/article_attachments/360000148188",
       "title": "Disc Makers Paginating stapled booklets",
-      "description": ""
-    },
-    {
-      "link": "https://mangustaexpress.com/diy-zines",
-      "title": "How to do your own Zines. Network 23 DIY Production.",
-      "description": "Details of the how-to on printing and shipping zines. Goes into tools and stitching."
+      "description": "A simple PDF showing how layouts would work from 8 to 40 page zines."
     }
   ],
   "selling": [
