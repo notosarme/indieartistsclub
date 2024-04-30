@@ -1,0 +1,138 @@
+{
+  "process": [
+    {
+      "term": "Reference",
+      "definition": ""
+    },
+    {
+      "term": "Trace",
+      "definition": ""
+    },
+    {
+      "term": "Photobash",
+      "definition": ""
+    },
+    {
+      "term": "AI-generated",
+      "definition": ""
+    },
+    {
+      "term": "Sketch",
+      "definition": ""
+    },
+    {
+      "term": "Flat color",
+      "definition": ""
+    },
+    {
+      "term": "Cel shading",
+      "definition": ""
+    },
+    {
+      "term": "Dithering",
+      "definition": ""
+    },
+    {
+      "term": "Posterization",
+      "definition": ""
+    },
+    {
+      "term": "Mixed media",
+      "definition": ""
+    }
+  ],
+  "online-hobbyist": [
+    {
+        "term": "OC (Original character)",
+        "definition": ""
+    },
+    {
+        "term": "FC (Fan character)",
+        "definition": ""
+    },
+    {
+        "term": "WIP (Work in progress)",
+        "definition": ""
+    },
+    {
+        "term": "YCH (Your character here)",
+        "definition": ""
+    },
+    {
+        "term": "MAP (Multi-animater project)",
+        "definition": ""
+    },
+    {
+        "term": "Ref (Character reference sheet)",
+        "definition": ""
+    }
+  ],
+  "FA-exhibition": [
+    {
+        "term": "CV (Curriculum Vitae)",
+        "definition": "A specialized resume for the arts. Usually a list of ways the artist has contributed to their field: education, exhibitions (participation or curation, online, offline, pop-up…), talks, lectures, residencies, publications, and relevant awards and grants received."
+    },
+    {
+        "term": "Open Call",
+        "definition": "A gallery or curator requesting portfolios to review, usually for a show. Some include a fee per artwork submitted (from $10-40 USD range), but others are free."
+    },
+    {
+        "term": "NFS",
+        "definition": "Not For Sale"
+    },
+    {
+        "term": "Eye level",
+        "definition": "The height at which artworks are hung on the wall in a gallery so the view is not skewed up or down. Also, so works are hung in a straight line. Depending on the gallery, it can range from 56” to 60”."
+    }
+  ],
+  "genres-movements": [],
+  "furry-creatures": [
+    {
+        "term": "Furry ",
+        "definition": "Refers to characters, media, and people associated with anthropomorphic animal character designs."
+    },
+    {
+        "term": "Anthropomorphic ",
+        "definition": "Has humanlike characteristics"
+    },
+    {
+        "term": "Anthro",
+        "definition": "Stands on two legs, and/or, has anthropomorphic (humanlike) characteristics. In some circles, anthro is used to mean having more animal-like traits, while furry means more human-like traits."
+    },
+    {
+        "term": "Quad",
+        "definition": "Stands on four legs, may or may not be anthropomorphic"
+    },
+    {
+        "term": "Feral",
+        "definition": "A fictional animal, sometimes connotes less anthropomorphic stylization or may be lacking human personality."
+    },
+    {
+        "term": "Monster",
+        "definition": "Non-human creatures, often grotesque. May or may not be anthropomorphic, but typically, they are less so. Often folkloric creatures that appear frequently in classic literature."
+    },
+    {
+        "term": "Kemono",
+        "definition": "A generic term for animal characters used in Japan, that lacks a unified definition. Generally, it's considered anything inbetween \"feral\" and \"catgirl\". Kemono is also used in English to mean a furry style that has more manga or cute influences rather than Disney and comic style influence. There's many subcategories."
+    },
+    {
+        "term": "Fursuit",
+        "definition": ""
+    },
+    {
+        "term": "Partial suit",
+        "definition": ""
+    },
+    {
+        "term": "Quadsuit",
+        "definition": ""
+    }
+  ],
+  "historical": [
+    {
+        "term": "Manifesto",
+        "definition": ""
+    }
+  ],
+  "japanese": []
+}
