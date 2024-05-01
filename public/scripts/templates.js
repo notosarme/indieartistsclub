@@ -21,8 +21,8 @@ function loadSidebar() {
         <li><a href="/resources/zines.html">Zine Making & Printing</a></li>
         <li><a href="/resources/storefronts.html">Digital Storefronts</a></li> 
         <li><a href="/resources/merchandise.html">Merchandise Printing</a></li>
+        <li><a href="/resources/local.html">Local Resources</a></li>
         <li>Personal Site & Portfolio (WIP)</li>
-        <li>Local Communities (WIP)</li>
     </ul>   
     `
 }
