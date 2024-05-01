@@ -1,0 +1,138 @@
+{
+  "process": [
+    {
+      "term": "Reference",
+      "definition": "An artist's use of existing objects, images, or ideas as sources of inspiration or guidance in the creation of their own work. Can be directly referencing a pose or setting, or a more general reference to an art style or theme."
+    },
+    {
+      "term": "Trace",
+      "definition": "The act of replicating or outlining an existing image or form, usually done with layering digitally or light boxes. Tracing can be done to one's own work to prepare for rendering, it can be a deliberate stylistic choice (similar to collaging), or it can be done in an attempt to pass off others' work as one's own."
+    },
+    {
+      "term": "Photobash",
+      "definition": "The technique combining and manipulating various assets ranging from photographs to 3D models, with the intent to blend them together seamlessly."
+    },
+    {
+      "term": "AI-generated",
+      "definition": "Content that has been created or significantly influenced by generative artificial intelligence. Often refers to works created by Dall-E, Stable Diffusion, or other proprietary AI software. Does <span class=\"italics\">not</span> refer to works that use non-generative AI tools such as color fill assistance. "
+    },
+    {
+      "term": "Sketch",
+      "definition": "A rough drawing or outline that serves as an initial representation of an idea or composition before further refinement."
+    },
+    {
+      "term": "Flat color",
+      "definition": "A technique where areas of uniform color are used without shading or gradient effects, often to create a simplistic or graphic aesthetic. Can be the first stage to rendering in digital art, or be a standalone style."
+    },
+    {
+      "term": "Cel shading",
+      "definition": "A non-realistic rendering technique with flat and distinct colors, well-defined outlines, and defined, non-gradient shading. Meant to mimic the appearance of hand-drawn animation cels. The term usually applies to cel shaders for 3D models, but is sometimes used to refer to a style of digital art that mimics it."
+    },
+    {
+      "term": "Dithering",
+      "definition": "A pixel art technique of creating the illusion of additional colors or shades by placing pixels of two or more different colors adjacent to each other, usually in specific patterns. A similar idea to cross-hatching. Associated with displays that were large but had limited color resolution, such as the PC-98."
+    },
+    {
+      "term": "Posterization",
+      "definition": "To limit the number of tones or colors in an image in a way that is reminiscent of a poster. Converts the continuous gradation of tone to several regions of fewer tones, causing abrupt changes from one tone to another. Often seen in vector art."
+    },
+    {
+      "term": "Mixed media",
+      "definition": "The use of multiple materials or techniques within a single artwork, often combining traditional and digital media, or wet and dry traditional media, to create a multidimensional artwork."
+    }
+  ],
+  "online-hobbyist": [
+    {
+        "term": "OC (Original character)",
+        "definition": "A unique fictional character created by an individual, often used as a means of self-expression, storytelling, or participating in collaborative projects within fandoms or creative circles. Originally meant to be separate from \"FC\", but the terms overlap often."
+    },
+    {
+        "term": "FC (Fan character)",
+        "definition": "An OC created by a fan of a particular media franchise, based within the established universe of the original work."
+    },
+    {
+        "term": "WIP (Work in progress)",
+        "definition": "An unfinished piece or project that is still undergoing revision, often shared with others to solicit feedback, document the creative process, or provide updates on the ongoing work. "
+    },
+    {
+        "term": "YCH (Your character here)",
+        "definition": "Refers to a pre-made artwork or template where the artist offers to insert a buyer's OC into the composition. Often offered as a cheaper commission option to a fully new rendered piece."
+    },
+    {
+        "term": "MAP (Multi-animater project)",
+        "definition": "A collaborative endeavor where multiple animators contribute segments or scenes to a larger animation project, often coordinated by a lead animator or organizer. Creates a cohesive animated work with diverse styles and perspectives."
+    },
+    {
+        "term": "Ref (Character reference sheet)",
+        "definition": "A comprehensive visual guide that provides detailed information for an OC, often including their appearance, personality traits, clothing, and other details. Serves as a reference to maintain consistency and easily show to others to draw for art trades and commissions."
+    }
+  ],
+  "FA-exhibition": [
+    {
+      "term": "Manifesto",
+      "definition": "A public declaration or statement of principles, beliefs, or intentions written by an artist to articulate their vision, goals, or ideologies. Intended to provoke discussion, challenge conventions, or inspire action within their respective communities or societies."
+    },
+    {
+        "term": "CV (Curriculum Vitae)",
+        "definition": "A specialized resume for the arts. Usually a list of ways the artist has contributed to their field: education, exhibitions (participation or curation, online, offline, pop-up…), talks, lectures, residencies, publications, and relevant awards and grants received."
+    },
+    {
+        "term": "Open Call",
+        "definition": "A gallery or curator requesting portfolios to review, usually for a show. Some include a fee per artwork submitted (from $10-40 USD range), but others are free."
+    },
+    {
+        "term": "NFS",
+        "definition": "Not For Sale"
+    },
+    {
+        "term": "Eye level",
+        "definition": "The height at which artworks are hung on the wall in a gallery so the view is not skewed up or down. Also, so works are hung in a straight line. Depending on the gallery, it can range from 56” to 60”."
+    }
+  ],
+  "furry-creatures": [
+    {
+        "term": "Furry ",
+        "definition": "Refers to characters, media, and people associated with anthropomorphic animal character designs."
+    },
+    {
+        "term": "Anthropomorphic ",
+        "definition": "Has humanlike characteristics."
+    },
+    {
+        "term": "Anthro",
+        "definition": "Stands on two legs, and/or, has anthropomorphic (humanlike) characteristics. In <span class=\"italics\">some</span> circles, anthro is used to mean having more animal-like traits, while furry means more human-like traits. \"A furry rabbit eats a hamburger, an anthro rabbit eats a salad.\""
+    },
+    {
+        "term": "Quad",
+        "definition": "Stands on four legs, may or may not be anthropomorphic."
+    },
+    {
+        "term": "Feral",
+        "definition": "A fictional animal, sometimes connotes less anthropomorphic stylization or may be lacking human personality."
+    },
+    {
+        "term": "Monster",
+        "definition": "Non-human creatures, often grotesque. May or may not be anthropomorphic, but typically, they are less so. Often folkloric creatures that appear frequently in classic literature."
+    },
+    {
+        "term": "Kemono",
+        "definition": "A generic term for animal characters used in Japan, that lacks a unified definition. Generally, it's considered anything inbetween \"feral\" and \"catgirl\". Kemono is also used in English to mean a furry style that has more manga or cute influences rather than Disney and comic style influence. There's many subcategories."
+    },
+    {
+      "term": "Fursona",
+      "definition": "A personalized furry or anthropologist character that is meant to represent oneself within the community. Commonly used in art, roleplaying, and other media and community aspects."
+    },
+    {
+        "term": "Fursuit",
+        "definition": "A full-body costume portraying anthropomorphic characters, usually one's own fursona, and often crafted from materials like faux fur, foam, and other textiles. "
+    },
+    {
+        "term": "Partial suit",
+        "definition": "A style of fursuit that usually includes a head and handpaws, and sometimes footpaws or a tail, worn with regular clothing on the rest of the body. Allows for greater mobility and less upkeep."
+    },
+    {
+        "term": "Quadsuit",
+        "definition": "An elaborate fursuit that covers the wearer's entire body and is designed to resemble a quadrupedal animal, featuring four-legged construction and generally requiring the wearer to walk on their hands and feet."
+    }
+  ]
+}
