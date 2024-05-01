@@ -172,19 +172,20 @@
   ],
   "making": [
     {
-      "link": "https://get.adobe.com/reader/",
-      "title": "Adobe PDF reader",
-      "description": "Free for some functions, about 10 dollars a month for others. The most common use is to just import the PDF of your zine, and then on \"print options\" there is a booklet option."
-    },
-    {
       "link": "https://nashhigh.itch.io/zinearranger",
       "title": "Zine Arranger!",
       "description": "An open source program where you upload a multi-page pdf and arrange it into a zine layout, including eighth size, quarter size, and half size. A couple other options as well."
     },
     {
-      "link": "https://risottostudio.com/pages/how-to-paginate-a-book-or-zine-across-a3-paper-sheets",
-      "title": "Risotto BOOK + PAGINATION GUIDES",
-      "description": "How to Paginate Books or Zines specifically for risography and A3 Paper sheets."
+      "link": "https://alienmelon.itch.io/electric-zine-maker",
+      "title": "Electric Zine Maker (a work in progress, be gentle, hug it often)",
+      "description": "A printshop and art tool for making zines. This tool includes a drawing interface. It has a funky old school interface to it!",
+      "links": [
+        {
+          "link": "https://jeremyoduber.itch.io/js-zine",
+          "title": "A digital zine on how to digitally share zines made by it."
+        }
+      ]
     },
     {
       "link": "https://www.canva.com/",
@@ -202,6 +203,11 @@
       "description": "A one-purchase alternative to Adobe inDesign, a design layout software."
     },
     {
+      "link": "https://get.adobe.com/reader/",
+      "title": "Adobe PDF reader",
+      "description": "Free for some functions, about 10 dollars a month for others. The most common use is to just import the PDF of your zine, and then on \"print options\" there is a booklet option."
+    },
+    {
       "link": "https://drive.google.com/drive/folders/1w2KHEasWbld3z0DpJEoAw8vJgawNh9W6?usp=sharing",
       "title": "Zine Workshop Freebie File🎉",
       "description": "A Google Drive directory of how to make zines, templates, and some extra links."
@@ -217,20 +223,14 @@
       "description": "A free PDF + JPG print file that shows you how to make a single sheet of paper into a 6-page zine! "
     },
     {
-      "link": "https://alienmelon.itch.io/electric-zine-maker",
-      "title": "Electric Zine Maker (a work in progress, be gentle, hug it often)",
-      "description": "A printshop and art tool for making zines. This tool includes a drawing interface. It has a funky old school interface to it!",
-      "links": [
-        {
-          "link": "https://jeremyoduber.itch.io/js-zine",
-          "title": "A digital zine on how to digitally share zines made by it."
-        }
-      ]
-    },
-    {
       "link": "https://www.youtube.com/watch?v=TfLO3mnk6bY",
       "title": "How to Make Your Own Art \"Zine\" Magazine / Book in Adobe Photoshop",
       "description": "A Youtube video on how to lay out your pages to create a saddle stitch style booklet in any version of Photoshop."
+    },
+    {
+      "link": "https://risottostudio.com/pages/how-to-paginate-a-book-or-zine-across-a3-paper-sheets",
+      "title": "Risotto BOOK + PAGINATION GUIDES",
+      "description": "How to Paginate Books or Zines specifically for risography and A3 Paper sheets."
     },
     {
       "link": "https://support.discmakers.com/hc/en-us/article_attachments/360000148188",
@@ -240,76 +240,114 @@
   ],
   "selling": [
     {
-      "link": "https://citylights.com/faq/",
-      "title": "City Lights",
-      "description": ""
-    },
-    {
-      "link": "https://www.quimbys.com/consignment",
-      "title": "Quimby's",
-      "description": ""
-    },
-    {
       "link": "https://www.etsy.com/ca/c/books-movies-and-music/books/zines-and-magazines/zines",
       "title": "Etsy",
       "description": ""
     },
     {
-      "link": "",
-      "title": "Adobe Books",
+      "link": "https://ko-fi.com/shop",
+      "title": "Ko-Fi Shop",
       "description": ""
     },
     {
-      "link": "",
+      "link": "https://gumroad.com/",
+      "title": "Gumroad",
+      "description": "While best known for digital goods and art, it has that plus an ebook section, plus a physical goods section!",
+      "links": [
+        {
+          "link": "https://help.gumroad.com/article/85-physical-products",
+          "title": "Selling physical products"
+        }
+      ]
+    },
+    {
+      "link": "https://www.bigcartel.com/",
       "title": "Big Cartel",
       "description": ""
     },
     {
-      "link": "",
-      "title": "Shopenvy",
+      "link": "https://www.storenvy.com/",
+      "title": "Storenvy",
       "description": ""
     },
     {
-      "link": "",
-      "title": "Ko-Fi",
-      "description": ""
-    },
+      "title": "Social Media",
+      "description": "Instagram, Twitter (X), Facebook... If you already have a presence online this is a particularly easy way to go about it. Post about it, they send you their address plus payment (Venmo, Paypal, CashApp, etc), and you ship it! Since zines are so frequently sent letter mail, this is pretty reasonable. Just make sure you select that it's a business transaction!"
+    }
+  ],
+  "distros": [
     {
       "link": "https://www.wizd-az.com/",
       "title": "Wasted Ink Zine Distro",
-      "description": ""
+      "description": "Phoenix, AZ"
+    },
+    {
+      "link": "https://atomicbooks.com/pages/consignment",
+      "title": "Atomic Books",
+      "description": "Baltimore, MD"
+    },
+    {
+      "link": "https://www.printedmatter.org/submit",
+      "title": "Printed Matter",
+      "description": "New York, NY"
+    },
+    {
+      "link": "https://www.desertislandbrooklyn.com/",
+      "title": "Desert Island",
+      "description": "Brooklyn, NY"
+    },
+    {
+      "link": "https://bluestockings.com/",
+      "title": "Blue Stockings",
+      "description": "New York, NY"
+    },
+    {
+      "link": "https://www.quimbys.com/consignment",
+      "title": "Quimby's",
+      "description": "Chicago, IL & New York, NY"
+    },
+    {
+      "link": "https://www.elliottbaybook.com/about/consignment",
+      "title": "Elliott Bay Book Company",
+      "description": "Seattle, WA"
+    },
+    {
+      "link": "http://www.adobebooks.com/",
+      "title": "Adobe Books",
+      "description": "San Francisco, CA"
     }
+
   ],
   "meetups": [
     {
       "link": "https://www.sfvzinefest.com/",
       "title": "SFV Zine Fest",
-      "description": ""
-    },
-    {
-      "link": "https://www.instagram.com/sfvartbookfair/",
-      "title": "SFV Art Book Fair",
-      "description": ""
+      "description": "San Fernando Valley, CA"
     },
     {
       "link": "http://www.sandiegozinefest.com/",
       "title": "San Diego Zine Fest",
-      "description": ""
+      "description": "San Diego, CA"
     },
     {
       "link": "https://www.portlandzinesymposium.org/",
       "title": "Portland Zine Symposium",
-      "description": ""
+      "description": "Portland, OR"
     },
     {
       "link": "https://www.cakechicago.com/",
       "title": "Chicago Alternative Comics Expo",
-      "description": ""
+      "description": "Chicago, IL"
     },
     {
       "link": "https://www.oczinefest.com/",
       "title": "O.C. Zine Fest",
-      "description": ""
+      "description": "Orange County, CA"
+    },
+    {
+      "link": "https://pei.art/chtown-zine-fest/",
+      "title": "Charlottetown Zine Fest",
+      "description": "Charlottetown, PE, Canada"
     }
   ],
   "more": [
