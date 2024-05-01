@@ -17,12 +17,12 @@ function loadSidebar() {
     sidebar.innerHTML +=
     `
     <ul class="quick-access-list">
+        <li><a href="/resources/glossary.html">Glossary of Art Terms</a></li>
         <li><a href="/resources/comms.html">Commission Services</a></li>
         <li><a href="/resources/zines.html">Zine Making & Printing</a></li>
         <li><a href="/resources/storefronts.html">Digital Storefronts</a></li> 
         <li><a href="/resources/merchandise.html">Merchandise Printing</a></li>
         <li><a href="/resources/local.html">Local Resources</a></li>
-        <li>Personal Site & Portfolio (WIP)</li>
     </ul>   
     `
 }
@@ -30,4 +30,6 @@ function loadSidebar() {
 loadHeader();
 loadSidebar();
 
+
+{/* <li>Personal Site & Portfolio (WIP)</li> */}
 // <a href="/blog.html" class="button">Blog</a>
