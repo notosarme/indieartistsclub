@@ -1,0 +1,35 @@
+{
+  "name": "The Online Indie Artists Club",
+  "short_name": "indieartists.club",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "72x72",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "96x96",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "144x144",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#b2bab3",
+  "background_color": "#66776d",
+  "display": "standalone"
+}
