@@ -41,6 +41,24 @@
       "definition": "The use of multiple materials or techniques within a single artwork, often combining traditional and digital media, or wet and dry traditional media, to create a multidimensional artwork."
     }
   ],
+  "manufacturing": [
+    {
+      "term": "MOQ",
+      "definition": "Stands for \"Minimum Order Quantity\". This is the minimum amount of product you must order at once. For example, if a factory lists an item printing at $1, but it has a MOQ of 50, then you will end up spending a minimum of $50."
+    },
+    {
+      "term": "Consignment",
+      "definition": "An arrangement where a retailer agrees to stock and sell an author's books (or other products), paying the author a percentage of the sales proceeds only for the copies sold. Often used for small batch self publishing."
+    },
+    {
+      "term": "Self Publishing",
+      "definition": "The process by which an author independently produces, publishes, and distributes their own work without the involvement of a traditional publishing house."
+    },
+    {
+      "term": "Traditional publishing",
+      "definition": "Where a publishing company selects and prints an author's work, handling editing, design, printing, distribution, and marketing, and pays the author royalties based on sales. Sometimes the author works through an agent. Books made this way are also called \"nationally published\" or \"done through established publication\"."
+    }
+  ],
   "online-hobbyist": [
     {
         "term": "OC (Original character)",
