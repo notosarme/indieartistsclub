@@ -1,3 +1,7 @@
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/3oFzlWBadh6GNv3rdS/giphy.gif" width="200"/>
+</div>
+
 A website that spawned from a collective that wanted to create a simple resource hub, as artistic resources of this sort are often very scattered online. One of the main things is that they wished to keep the website as "vanilla" and lightweight as possible, for three main reasons:
 
 1. To be accessible to as many people as possible, particularly considering this demographic is known to have many low income users and youth in it.
