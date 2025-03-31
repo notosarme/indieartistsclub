@@ -1,5 +1,5 @@
-import ColorThief from "./color-thief.mjs"
-import Pixelate from "./pixelator.mjs";
+import ColorThief from "./color-thief.js"
+import Pixelate from "./pixelator.js";
 
 const colorThief = new ColorThief();
 
