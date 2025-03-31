@@ -1,57 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Online Indie Artists Club</title>
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Karla:ital,wght@0,200..800;1,200..800&family=Reddit+Mono:wght@200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/scripts/app.js" defer></script>
+  <link rel="stylesheet" href="/main.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>Resources :: Indie Artist Club</title>
+</head>
+<body>
+  <header id="app-header"></header>
+  <script async src="/_include/header.js"></script>  
+  <main class="resource-list">
+    <h2>Resources</h2>
+    <p>
+      Make sure to do your own research before signing up to any service. 
+      These compilations are a mix of ones the we have used, been recommended, or seen others use.
+      A ★ means a contributor has personally used and recommends the service.
+    </p>
 
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="/scripts/collapsibles.js" defer></script>
-    <script src="/scripts/templates.js" defer></script>
-  </head>
-  <body>
-    <div id="main-box">
-      <header class="header-box"><h1>The Online Indie Artists Club</h1></header>
-      <nav class="button-box"></nav>
+    <div>
+      <div class="collapsible"><h3 class="collapsible-header">Commissions</h3></div>
+      <div class="collapsible-content">
+        <dl class="resource-list">
+          <dt><a href="https://artistsnclients.com/">Artists&amp;Clients</a></dt>
+          <dd><p><span class="italics">Artists&amp;Clients is an art commissions marketplace with the goal and tools to make work simple and straightforward for both artists and clients. We provide all the tools to solve these problems. Extensive browsing and filtering, commissions slot management, conversations and jobs, file sharing — we make it easy.</span></p><p>They approve of all styles and themes, including adult content, terms of service only explicitly disallowing lolicon. You must be 13+ to use the website. There is a 4.4% international fee, 15% website fee, and 2% withdrawal fee. <a href="https://artistsnclients.com/about/fee-learn-more">Here is a breakdown</a>. Clients can tip the artist after having the job approved.</p><p><a href="https://artistsnclients.com/docs/getting-started">Getting Started</a> | <a href="https://artistsnclients.com/about/help_faq">Info</a> | <a href="https://artistsnclients.com/about/terms">TOS</a></p></dd>
 
-      <div class="content-box">
-        <div class="quick-access">
-          <div class="quick-access-header"><h2>Quick Access</h2></div>
-          <div id="quick-access"></div>
-        </div>
-        <div class="text-content-box">
-          <div class="container">
-            <div class="text-header"><h2>Explore Resources</h2></div>
-            <div class="text-content">
-              <p><a href="./glossary.html">Glossary of Art Terms</a></p>
-              <p><a href="./comms.html">Commission Services</a></p>
-              <p><a href="./zines.html">Zine Making & Printing</a></p>
-              <p><a href="./storefronts.html">Digital Storefronts</a></p>
-              <p><a href="./merchandise.html">Merchandise Printing</a></p>
-              <p><a href="./local.html">Local Resources</a></p>
-            </div>
-          </div>
-        </div>
+          <dt><a href="https://artistree.io/">Artistree</a></dt>
+          <dd><p>You are allowed any themes, except pornography of real life people on camera. "If the content is drawn, you're probably fine." They allow any kind of digital product or service. Their list is: artists, musicians, 3D Modelers, animators, writers, and video editors. Specifically, you just have to sell digital &amp; custom content. They have a request form and invoicing system, you can choose what works for you.</p><p> No fees for the artist. Clients pay an extra 6.5% instead. For every sale, they donate to Eden Reforestation. They include invoicing, forms, messaging, more content related to art sales. They have 55,000 artists on the website.</p><p><a href="https://artistree.io/artist-guide">Getting Started</a> | <a href="https://artistree.io/faq">Info</a> | <a href="https://artistree.io/terms-and-conditions">TOS</a></p></dd>
+
+          <dt><a href="https://vgen.co/">VGen</a></dt>
+          <dd><p><span class="italics">We help you showcase and manage your art and art businesses while connecting you to a community of fellow artists, clients, and friends.</span> Their list of services include: Illustrators, riggers, graphic designers, video editors, animators, musicians, "and more." They do focus on vtuber-esque content, but you're not restricted to it. They offer a Skeb-like service called <a href="https://help.vgen.co/hc/en-us/articles/12820428378263-Can-I-offer-Skeb-like-commissions-on-VGen">"Surprise me" where you can define your rules around it.</a> You need to be invited into the site, currently.</p><p>They allow "adult content" but not "porn" - there is a full breakdown of their NSFW policy <a href="https://help.vgen.co/hc/en-us/articles/12733211123351-NSFW-Policy">here</a>. They charge a 5% service fee + payment processing fee to artists when you get a commission. It seems you can pay out with Stripe or Paypal. Standard Paypal fees for your country apply. Stripe has 2.9% + $0.30 fees for Americans, and add on an extra 1.5-2.5% for non-Americans. No specific withdrawl fees. <a href="https://help.vgen.co/hc/en-us/articles/12820094917655-What-are-VGen-s-fees">Here's their breakdown.</a></p><p><a href="https://help.vgen.co/hc/en-us/articles/12883126316951-How-VGen-works">Getting Started</a> | <a href="https://help.vgen.co/hc/en-us">Info</a> | <a href="https://vgen.co/terms-of-service">TOS</a></p></dd>
+
+          <dt><a href="https://arty.ooo/">Arty</a></dt>
+          <dd><p>A basic art commission escrow - they just handle the payment middleman step. <span class="italics">Start a new commission on Arty where you'll fill in the details for the artwork, set the price in the agreed currency, and generate a unique commission link for your client. When your client visits the unique link, they'll see the commission details and can pay for it with their card or PayPal. Arty supports payments from almost anyone in the world! You're done!? Upload the finished work and Arty will securely share a sample of the commission for your client to approve.</span></p><p>It allows you to <span class="italics">sell commissions without disclosing your Name, Email address, PayPal, or Wise account details to commissioners.</span> There is no portfolio, advertisement, anything. It just handles payment and anonymization. Content that depicts gore or porn of minors or animals is banned, going by Australian law. They take a $1.50 + 8% fee, and accept all major cards &amp; PayPal from clients in almost every country, and allow you to withdraw in your own currency. They do not charge a withdrawal fee, but PayPal or whatever other service you use might.</p><p><a href="https://arty.ooo/about">Getting Started</a> | <a href="https://arty.ooo/#faq">FAQ</a> | <a href="https://arty.ooo/terms">TOS</a></p></dd>
+
+          <dt><a href="https://ych.commishes.com/">YCH.commishes</a></dt>
+          <dd><p><span class="italics">The site was built by a small team (programmer + artist) who considered that auctioning art was way too inconvenient with the existing options. Also, we believe that people do not only want to buy art from artists they know but discover new people who make great art. YCH.Commishes treats all the auctions equally, they appear on the homepage until they're finished and archived. This makes the system very useful to discover new art, hunt for a good bargain and to give exposure to artists who are selling their art.</span></p><p>A site to sell characters/adoptables/Your Characters Here, and has auctions built in. There are specific rules to protect against adoptable drama, like "refund take back" being banned. You can also list rules around your adoptables, but they are not enforcable by YCH, which instead takes the stance that the buyer has full rights to the character. You can resell if you own a character, with specific rules around that as well.</p><p>No copyrighted names or characters, but species that there are multiple of, as in there are not a Single Specific Character of that type (like Pokemon, MLP ponies, etc) are fine. Closed species are not considered defensible, so are free to be sold. You can do incentives, goals, and upgrades for auctions. They have <a href="https://wiki.commishes.com/en/rules">a wide rating system</a>: Safe, Questionable, Explicit, and Shock. They seem to go by Paypal fees.</p><p><a href="https://ych.commishes.com/home/about/">Getting Started</a> | <a href="https://ych.commishes.com/home/faq/">Info</a> | <a href="https://wiki.commishes.com/en/rules">TOS</a></p></dd>
+
+          <dt><a href="https://ko-fi.com/">Ko-Fi</a></dt>
+          <dd><p>A very popular website for receiving tips (donations), commissions, and monthly memberships. You can provide any service, physical or digital. There is a gallery option for your page, and you can sell fixed digital content there as well. They take a 5% fee, or 0% if you pay for their premium membership (it's also 0% on donations for everyone, though you still get hit with Paypal/Stripe fees). They do not allow pornography, nudity, obscene, or violent content.</p><p><a href="https://help.ko-fi.com/hc/en-us/articles/360016170433-Using-Ko-fi-for-Commissions-and-Services">Commission info</a> | <a href="https://help.ko-fi.com/hc/en-us/articles/360013140633-Supporter-payments-FAQ">FAQ</a> | <a href="https://more.ko-fi.com/terms">TOS</a></p></dd>
+
+          <dt><a href="https://skeb.jp/">Skeb</a></dt>
+          <dd><p>A Japanese website that requires a Japanese bank account to sell on, but allows international clients. You can only send in a basic description of what you want, and cannot talk with the artists about the commission outside that. They then return you a finished piece.</p></dd>
+        </dl>
       </div>
     </div>
-  </body>
-</html>
 
-<!-- {
-  "link": "",
-  "title": "",
-  "links": [
-    {
-      "link": "",
-      "title": ""
-    }
-  ],
-  "description": ""
-} -->
+    <div>
+      <div class="collapsible"><h3 class="collapsible-header">Storefronts</h3></div>
+      <div class="collapsible-content">
+        <ul>
+          <li><a href="https://www.inprnt.com/">inprnt 🇺🇸</a> Archival quality print-on-demand, a shop made by artists for artists.</li>
+          <li><a href="https://webflow.com/">Webflow</a> - </li>
+          <li><a href="https://ko-fi.com/">Ko-Fi</a> - </li>
+          <li><a href="https://www.bigcartel.com/">Big Cartel</a> - </li>
+          <li><a href="https://www.etsy.com/ca/market/digital_art_commission">Etsy</a> - </li>
+          <li><a href="https://www.storenvy.com/">Storenvy</a> - </li>
+          <li><a href="https://www.shopify.com/ca">Shopify</a> - </li>
+          <li><a href="https://www.godaddy.com/en-ca/websites/online-store">GoDaddy Storefront</a> - </li>
+          <li><a href="https://www.artspan.com/">Art Span</a> - </li>
+          <li><a href="https://www.squarespace.com/">Squarespace</a> - </li>
+          <li><a href="https://fineartamerica.com/">Fine Art America</a> - </li>
+          <li><a href="https://en-ca.wordpress.org/plugins/woocommerce/">Wordpress + Woocommerce</a> - </li>
+          <li><a href="https://www.wix.com/">Wix</a> - </li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="collapsible"><h3 class="collapsible-header">Printing & Merch</h3></div>
+      <div class="collapsible-content">
+        <h4>Zines</h4>
+        <ul>
+          <li><a href="https://www.wizd-az.com/wastedinkpublishing.html">Wasted Ink Zine Distro</a> - Submit a form with all your details and directly chat about your options. Has designing options alongside printing options. Offers color, B&W, various paper weights, bindings, and so forth. If you have a lot of questions or need help getting started, this one is very hands-on and help-focused.</li>
+          <li><a href="https://www.shortrunprinting.com/">Short Run Printing, Ltd.</a> - A shop focused on the short-run market. Has options for magazine, color, and high speed b&w printing. Generates quotes which are fee- and shipping-inclusive.</li>
+          <li><a href="https://themselvespress.com/">Themselves Press</a> - themselves is also a zine print shop that wants to help make self publishing art more accessible through sliding scale printing prices, affordable design services, and resources to help others diy. based in chicago.</li>
+          <li><a href="https://mixam.com/zines">Mixam</a> - A modern online print shop with a lot of different options, including binding, cover finishes, paper weight, and so on. Considered to be high quality. MOQ of 1.</li>
+          <li><a href="https://spinnprint.com/product/saddle-stitch-booklets/">Spinn Print</a> - A very reasonably priced, USA based online print shop. MOQ of 1.</li>
+          <li><a href="https://www.lulu.com/">Lulu</a> - MOQ of 1, will print up to 1000+. Advertises print, photo, and comic books, and more. Has self-publishing and POD services, and even has a book printing API if you're into that sort of thing. Less technically, it can connect directly to Wix, Shopify, and Woo Commerce to print and sell books as soon as they're purchased.</li>
+          <li><a href="https://www.bookbaby.com/book-printing">Book Baby</a> - MOQ of 25, will print up to 5000+ books in soft and hardcover. Based in the USA and has about a week of turnaround time. Uses HP Indigo and Xeikon printing presses, with the Idealliance G7 Master Facility Qualification. Includes cover options, trim sizes, perfect bound and hardcover book bindings, publisher-grade paper stocks, etc.</li>
+          <li><a href="https://www.bookemon.com/">Bookemon</a> - Create Memoir, Journal, Catalog, Storybook, Photobook, Workbook, Yearbook, & More. Often recommended as one of the cheaper options. They have international shipping and educator discounts. They also allow you to upload straight from word, google doc, even things like PPT. MOQ of 1, prints up to 50+. You start getting bulk discounts at 4 books. </li>
+          <li><a href="https://www.newspaperclub.com/">Newspaper Club</a> - Create and print your own newspaper on recyclable paper, in three different sizes. MOQ of 1. Worldwide shipping available. Has mini sizes that work great for zines, must have 16-64 pages.</li>
+        </ul>
+        
+        <h4>General Physical Merch</h4>
+        <ul>
+          <li><a href="https://www.pinlordshop.com/collections/manufacturers">Pinlord's List of Ethical Pin Manufacturers</a> - A list of ethical manufacturers, based in China and elsewhere.</li>
+          <li><a href="https://zapcreatives.com/en-ca">Zap! Creatives 🇬🇧</a> Jewelry, charms, keychains, phone charms, stickers, pins, badges, and standees. Has acrylic, metal, and wood options. Seems to be one of the most recommended companies.</li>
+          <li><a href="https://vograce.com/">Vograce 🇨🇳</a> Keychains, stickers, standees, printing, notebooks, sticky notes, washi tape, pins, throw pillows, lanyards & more.  The other most recommended companies, this one is based in China. It basically handles the Alibaba ordering for you so you don't need to deal directly with vendors, bulk orders, and the large shipping costs.</li>
+          <li><a href="https://alchemymerch.com/">Alchemy Merch 🇺🇸</a> Does typical things like pins, stickers, and charms, but also has a large range of unique and hard to find options, such as: beanies, bottle openers, mousepads, fans, pencil cases, needle minders, slip mats, socks, and elastic wristbands. Has a 4 week turnaround. They also take crypto as payment.</li>
+          <li><a href="https://acorn.press/">Acorn Press 🇺🇸</a> An acrylic charm producer with a simple order form and flat $10-25 shipping. MOQ of 10, and an estimated turnaround time of 15 business days + shipping. They have a very clear and simple webpage and allow for detailed communication.</li>
+          <li><a href="https://playmatworld.com/">Playmat World 🇨🇦</a> A Canadian shop with worldwide shipping that does custom playmats, card sleeves, deck boxes, mouse pads, and wall scrolls.</li>
+          <li><a href="https://linktr.ee/PrintInkling">Print Inkling 🇺🇸</a> An apparel, dice bag, patch, and sticker shop that takes custom orders through an email quote. Uses old school printing techniques, and has a MOQ of 12.</li>
+          <li><a href="https://www.stadriemblems.com/">Stadri Emblems 🇺🇸</a> A shop that focuses on embroidered patches and enamel pins, and some more products. Based in New York, and ship worldwide.</li>
+        </ul>
+        
+        <h4>Print Shops</h4>
+        <p>These are shops that focus on contents such as:
+            Business Cards, 
+            Postcards, 
+            Brochures, 
+            Notepads, 
+            Flyers, 
+            Door-hangers, 
+            Letterheads, 
+            Folders, 
+            Envelopes, 
+            & more!
+        </p>
+        <p> Beware print services, particularly budget ones. While they may do great with calligraphy or basic graphic design printing, they are not designed for art printing unless specifically noted to do it. While you can technically print, they often are not set up for it, and it won't turn out as high a quality as expected. So pay close attention before ordering art prints! </p>
+        <ul>
+          <li><a href="https://www.gotprint.com/home.html">GotPrint 🇺🇸</a> General printing, plus signs, banners, boards, decals, etc.  Considered to be one of the best custom print shops for the ratio of price to quality.</li>
+          <li><a href="https://www.catprint.com/">CatPrint 🇺🇸</a> A print shop with art print options. They are laser prints on thick smooth cardstock, sold at cheaper prices than fine art archival ones, but are of typical quality of the con-artist scene. America based, but has international shipping.</li>
+          <li><a href="https://finerworks.com/">FinerWorks 🇺🇸</a> Noted for being good with art prints. Also does posters, canvas, and more. Uses archival paper and ink, with a lot of different paper options.</li>
+          <li><a href="https://www.moo.com/">Moo 🇺🇸</a> Considered to be one of the higher quality print shops, though with high prices. Has some uncommon options such as planners and water bottles. Has worldwide shipping.</li>
+          <li><a href="https://www.printshaq.com/">printshaQ 🇺🇸</a> There is less information about this site than the others, however they've been noted to have good satin finishes on their cards. American shipping only.</li>
+          <li><a href="https://smartpress.com/">SmartPress 🇺🇸</a> A pretty standard American print shop. Offers free sample sheets.</li>
+          <li><a href="https://www.clubcard.ca/">Clubcard 🇨🇦</a> A Canada-based sticker and print shop, including fine art prints.</li>
+          <li><a href="https://www.artinkprint.ca/">Art Ink Print 🇨🇦</a> Fine art printing, with a good amount of options, such as prints, canvas, and calendars. They have “new artist” budget bundles if you're looking to bulk order.</li>
+          <li><strong>Your local print shop</strong> - Look around and see what print shops are in your area! This is the one area of merchandise printing that is likely to be available locally. Fedex in particular is a common chain known to have good print-on-demand.</li>
+        </ul>
+
+        <h4>Sticker-Focused Shops</h4>
+        <ul>
+          <li><a href="https://stickerblitz.com/">Sticker Blitz 🇺🇸</a> A sticker shop based in the USA. They ship to the USA and Canada, with free shipping available within America. They offer samples, and do not have a MOQ.</li>
+          <li><a href="https://www.awstickers.com/">awstickers 🇺🇸</a> A sticker shop with worldwide shipping, and flexible pricing based on a quote. They have a turnaround time of 4-7 business days, though allow rush orders.</li>
+          <li><a href="https://www.makestickers.com/">MakeStickers 🇺🇸</a> A sticker shop that is apparently pretty quick and cheap. They offer USA and Canada shipping, and free standard USA shipping.</li>
+          <li><a href="https://stickerninja.com/">Sticker Ninja 🇺🇸</a> A sticker shop that is considered to be one of the higher quality shops, though has prices to match. Ships to America and colonies, Canada, and Mexico.</li>
+          <li><a href="https://www.stickermule.com/">Sticker Mule 🇺🇸</a> Has been around for awhile and is mentioned a lot, particularly for their stickers. They have a bunch of extra tools that help you with image scaling, vectorization, and also shipping. Their non-sticker products are not as highly rated as their stickers.</li>
+          <li><a href="https://stickerapp.com/">StickerApp 🇺🇸</a> A sticker and label printing shop. Is generally considered to be a decent budget option. Has various material options including holographic and kraft. Is noted to sometimes have issues with the borders of stickers.</li>
+          <li><a href="https://rockinmonkey.com/">Rockin Monkey 🇺🇸</a> A sticker shop that has a long lead time, but is noted to have good holographic and glitter stickers. Ships worldwide.</li>
+          <li><a href="https://www.standoutstickers.com/">StandOut Stickers 🇺🇸</a> A budget brand that has most products made in America. Has worldwide shipping and carbon-neutral shipping options.</li>
+          <li><a href="https://www.123stickers.com/">123 Sticker 🇺🇸</a> A small and old business based in Oregon with good prices.</li>
+          <li><a href="https://deathbystickers.com/">Death By Stickers 🇺🇸</a> A small business based in New Jersey. Also does pins, banners, etc. Ships within America. Has no MOQ and good quality.</li>
+          <li><a href="https://vinyldisorder.com/">Vinyl Disorder 🇺🇸</a> I mostly see them being called a cheaper Sticker Mule, while still having decent quality. Ships worldwide.</li>
+          <li><a href="https://www.jukeboxprint.com/">Jukebox Print 🇨🇦</a> A Canada-based sticker and print shop.</li>
+          <li><a href="https://siraprint.ca/">Sira Print Inc. 🇨🇦</a> A Canadian-based sticker shop, with free shipping available. Considered to be pretty decent.</li>
+          <li><a href="https://www.stickeryou.com/">Sticker You 🇨🇦</a> A sticker company that also does things like temporary tattoos, iron-ons, and static clings. Based in Toronto, with worldwide shipping.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="collapsible"><h3 class="collapsible-header">Other Resources</h3></div>
+      <div class="collapsible-content">
+        <ul>
+          <li class="rec"><a href="https://proton.me/drive">Proton</a> - Google Drive (& Gmail) Alternative</li>
+          <li class="rec"><a href="https://porkbun.com/">PorkBun</a> - Domain hosting</li>
+          <li><a href="https://cryptpad.fr/">CryptPad</a> - Google Drive (& Suite) Alternative</li>
+          <li><a href="https://www.namecheap.com/">NameCheap</a> - Domain hosting</li>
+          <li><a href="https://nashhigh.itch.io/zinearranger">Zine Arranger!</a> - An open source program where you upload a multi-page pdf and arrange it into a zine layout, including eighth size, quarter size, and half size. A couple other options as well.</li>
+          <li><a href="https://alienmelon.itch.io/electric-zine-maker">Electric Zine Maker</a> - A printshop and art tool for making zines. This tool includes a drawing interface. It has a funky old school interface to it!</li>
+          <li><a href="https://affinity.serif.com/en-us/publisher">Affinity Publisher</a> - A one-purchase alternative to Adobe inDesign, a design layout software.</li>
+          <li><a href="https://risottostudio.com/pages/how-to-paginate-a-book-or-zine-across-a3-paper-sheets">Risotto BOOK + PAGINATION GUIDES</a> - How to Paginate Books or Zines specifically for risography and A3 Paper sheets.</li>
+          <li><a href=""></a> - </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div>
+      <div class="collapsible"><h3 class="collapsible-header">Bookmarks and Info</h3></div>
+      <div class="collapsible-content">
+        <ul>
+          <li><a href="https://nicezines.skynash.co.uk/">Nice Zines</a> - Compilations of zine resources, services, events, and more!</li>
+          <li><a href="https://zinewiki.com/wiki/Main_Page">Zine Wiki</a> - Catalogs the independent press, zinesters, authors, artists, and distros.</li>
+          <li><a href="https://letterpresscommons.com/printtrip/">Letterpress Commons</a> - Everything you need to know about print shops, including a map of many across the USA.</li>
+          <li><a href="https://razorbladesandaspirin.substack.com/p/a-short-guide-to-printing-a-zine">A Short Guide to Printing a Zine</a> - AKA How to Lose Money But Maybe Make Friends...</li>
+          <li><a href="https://www.forgottenworlds.net/how-to-create-a-zine">How to create a zine in 2023</a> - An overview of the production process, costs, and issues encountered. Includes going to a local print shop.</li>
+          <li><a href="https://guides.tricolib.brynmawr.edu/zines/">TriCollege Libraries - Zines</a> - Resources for reading and making zines.</li>
+          <li><a href="https://mangustaexpress.com/diy-zines">How to do your own Zines. Network 23 DIY Production.</a> - Details of the how-to on printing and shipping zines. Goes into tools and stitching.</li>
+          <li><a href="https://libguides.whitworth.edu/c.php?g=1144938&p=8357213">Whitworth Library's Zine Collection</a> - Various resources on zines, from making them to how to cite them!</li>
+          <li><a href="https://ko-fi.com/s/a2fbb41be4">Manufacturing Questions (poroful's Ko-fi Shop)</a> - A digital zine about the basics of contacting merchants, by poroful.</li>
+          <li><a href="https://www.pinlordshop.com/blogs/the-ultimate-guide-to-making-and-selling-enamel-pins/the-best-custom-enamel-pin-manufacturers-and-how-to-work-with-them">The Best Custom Enamel Pin Manufacturers and How To Work With Them - Pinlord</a> - Resources on how to find reliable pin factories, with info on pricing, turnaround time, payment methods, and communication.</li>
+          <li><a href=""></a> - </li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+  <footer id="app-footer"></footer>
+  <script async src="/_include/footer.js"></script>
+</body>
+</html>

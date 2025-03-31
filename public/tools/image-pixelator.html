@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/scripts/app.js" defer></script>
+  <link rel="stylesheet" href="/main.css" />
+  <title>Image Pixelator :: Indie Artist Club</title>
+</head>
+<body>
+  <header id="app-header"></header>
+  <script async src="/_include/header.js"></script>  
+  <main>
+    <h2>Upload an Image to Pixelate</h2>
+    <p>
+      This tool is based on the <a href="https://pixeluxe.cc/products/pixel-crystal" target="_blank">Pixel Crystal</a>, a real life little crystal block you can use to see the landscape around you in pixel form.
+    </p>
+    <div id="image-picker">
+      <form class="window" id="form" data-type="pixelator">
+        <span class="formElement">
+          <label for="file">Select an image: </label>
+          <input type="file" name="file" id="file" accept="image/*" />
+        </span>
+
+        <span class="formElement">
+          <fieldset>
+            <legend>Level of Pixelization:</legend>
+          
+            <div>
+              <input type="radio" id="low" name="quality" value="low" checked />
+              <label for="low">low</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="medium" name="quality" value="medium" />
+              <label for="medium">medium</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="high" name="quality" value="high" />
+              <label for="high">high</label>
+            </div>
+          </fieldset>          
+        </span>
+
+        <span class="formElement">
+          <button id="resetBtn">Reset</button>
+          <input type="submit" value="Submit" id="submitBtn" />
+        </span>
+      </form>
+
+      <span id="imageDisplay">
+        <div id="imgDiv"></div>
+      </span>
+    </div>
+  </main>
+  <footer id="app-footer"></footer>
+  <script async src="/_include/footer.js"></script>
+</body>
+</html>

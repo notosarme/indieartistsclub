@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/scripts/app.js" defer></script>
+  <link rel="stylesheet" href="/main.css" />
+  <title>Palette Picker :: Indie Artist Club</title>
+</head>
+<body>
+  <header id="app-header"></header>
+  <script async src="/_include/header.js"></script>  
+  <main>
+    <h2>Upload an Image to Extract Colors</h2>
+    <div id="image-picker">
+      <form class="window" id="form" data-type="palette-picker">
+        <span class="formElement">
+          <label for="file">Select an image: </label>
+          <input type="file" name="file" id="file" accept="image/*" />
+        </span>
+
+        <span class="formElement">
+          <label for="palette">Number of colors: </label>
+          <input
+            type="number"
+            name="palette"
+            id="palette"
+            min="1"
+            max="15"
+            value="5"
+          />
+        </span>
+
+        <span class="formElement">
+          <button id="resetBtn">Reset</button>
+          <input type="submit" value="Submit" id="submitBtn" />
+        </span>
+      </form>
+
+      <span id="imageDisplay">
+        <div id="imgDiv"></div>
+        <div id="colors"></div>
+      </span>
+    </div>
+  </main>
+  <footer id="app-footer"></footer>
+  <script async src="/_include/footer.js"></script>
+</body>
+</html>

@@ -1,59 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A collection of various resources for the online artist trying to navigate the world of art selling and communities.">
-    <title>The Online Indie Artists Club</title>
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Karla:ital,wght@0,200..800;1,200..800&family=Reddit+Mono:wght@200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="/scripts/templates.js" defer></script>
-  </head>
-  <body>
-    <div id="main-box">
-      <header class="header-box"><h1>The Online Indie Artists Club</h1></header>
-      <nav class="button-box"></nav>
-      
-      <div class="content-box">
-        <div class="quick-access">
-          <div class="quick-access-header"><h2>Quick Access</h2></div>
-          <div id="quick-access"></div>
-        </div>
-        <div class="text-content-box">
-          <div class="container">
-            <div class="text-header"><h2>Welcome!</h2></div>
-            <div class="text-content">
-              <p>
-                Welcome to an online collective, run by a group of people who have been collecting various resources as we try to navigate the world of digital art selling and communities. 
-                Compiling and explaining everything takes quite a bit of time, but we hope that you'll find something useful! 
-              </p>
-              <p>
-                Content frequently updates, so bookmark this page or follow us on <a href="https://neocities.org/site/indieartistsclub">Neocities</a>.
-              </p>
-              <span>
-                <p>Comment or give suggestions in the Guest Book!</p>
-                <a
-                  href="http://users.smartgb.com/g/g.php?a=s&amp;i=g19-01182-af"
-                  ><img
-                    alt="Guestbook"
-                    border="0"
-                    src="http://extras.smartgb.com/b/gb_80x40.gif"
-                    width="80"
-                    height="40"
-                /></a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/scripts/app.js" defer></script>
+  <link rel="stylesheet" href="/main.css" />
+  <title>Indie Artist Club</title>
+</head>
+<body>
+  <header id="app-header"></header>
+  <script async src="/_include/header.js"></script>  
+  <main>
+    <p> Welcome to an online collective, run by a group of people who have been collecting and creating various resources as we try to navigate the world of digital art selling and communities. Compiling and explaining everything takes quite a bit of time, but we hope that you'll find something useful!</p>
+    <ul>
+      <a href="/about.html">
+        <li>About</li>
+      </a>
+      <a href="/tools/palette-picker.html">
+        <li>Palette Picker</li>
+      </a>
+      <a href="/tools/image-pixelator.html">
+        <li>Pixelate Image</li>
+      </a>
+      <li><a href="/resources/">Bookmarks/Resources</a></li>
+    </ul>
+    <p>
+      <a href="https://users.smartgb.com/g/g.php?a=s&i=g19-01182-af"><img src="/assets/gb_80x40.gif" alt="guestbook button"/></a>
+      <img src="/assets/under_construction.gif" />
+    </p>
+  </main>
+  <footer id="app-footer"></footer>
+  <script async src="/_include/footer.js"></script>
+</body>
 </html>
