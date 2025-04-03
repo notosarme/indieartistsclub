@@ -142,11 +142,11 @@ img {
 }
 .resource-list a { font-weight: bold; text-decoration: none;}
 .resource-list li { padding: 6px 0; }
-ul .rec {
+/* ul .rec {
   list-style-type: '★';
   margin-left: -0.35ch;
   padding-inline-start: 0.55ch;
-}
+} */
 ul li::marker {
   font-size: 1rem;
 }
