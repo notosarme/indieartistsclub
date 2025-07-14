@@ -1,0 +1,34 @@
+[
+  {
+    "value": "",
+    "name": "Any Rating"
+  },
+  {
+    "value": "sfw",
+    "name": "Exclude Hentai"
+  },
+  {
+    "value": "g",
+    "name": "G - All Ages"
+  },
+  {
+    "value": "pg",
+    "name": "PG - Children"
+  },
+  {
+    "value": "pg13",
+    "name": "PG-13 - Teens 13 or older"
+  },
+  {
+    "value": "r17",
+    "name": "R - 17+ (violence & profanity)"
+  },
+  {
+    "value": "r",
+    "name": "R+ - Mild Nudity"
+  },
+  {
+    "value": "rx",
+    "name": "Rx - Hentai"
+  }
+]

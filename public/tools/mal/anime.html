@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Anime Randomizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/fetchAnime.js" defer></script>
+  </head>
+  <body id="anime">
+    <!-- Sidebar -->
+    <div id="app-anime-sidebar" class="sidebar"></div>
+    <script async src="/_include/anime-sidebar.js"></script>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="column">
+        <span id="title"><h2>Anime Title</h2></span>
+        <hr />
+        <section>
+          <div class="poster-block">
+            <div class="image-container">
+              <div id="poster"></div>
+            </div>
+
+            <div>
+              <h3>Alt Titles:</h3>
+              <hr />
+              <span id="alt-titles"></span>
+            </div>
+
+            <div class="data">
+              <p><b>Media Type: </b><span id="media-type"></span></p>
+              <p><b>Rating: </b><span id="rating"></span></p>
+              <p><b>Air Date: </b><span id="airing"></span></p>
+              <p><b>Themes: </b><span id="themes"></span></p>
+              <p><b>Score: </b><span id="score"></span></p>
+              <p><b>Rank: </b><span id="rank"></span></p>
+              <p><b>Genres: </b><span id="genres"></span></p>
+              <p><b>Duration: </b><span id="duration"></span></p>
+            </div>
+          </div>
+
+          <div class="details-block">
+            <p id="synopsis">Synopsis:</p>
+            <span id="trailer"></span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

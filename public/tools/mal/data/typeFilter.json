@@ -1,0 +1,30 @@
+[
+  {
+    "value": "",
+    "name": "Any Type"
+  },
+  {
+    "value": "tv",
+    "name": "TV"
+  },
+  {
+    "value": "movie",
+    "name": "Movie"
+  },
+  {
+    "value": "ova",
+    "name": "OVA"
+  },
+  {
+    "value": "special",
+    "name": "Special"
+  },
+  {
+    "value": "ona",
+    "name": "ONA"
+  },
+  {
+    "value": "music",
+    "name": "Music"
+  }
+]

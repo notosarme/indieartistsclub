@@ -1,0 +1,310 @@
+[
+  {
+    "value": "",
+    "name": "Any Genre"
+  },
+  {
+    "value": "1",
+    "name": "Action"
+  },
+  {
+    "value": "2",
+    "name": "Adventure"
+  },
+  {
+    "value": "3",
+    "name": "Racing"
+  },
+  {
+    "value": "4",
+    "name": "Comedy"
+  },
+  {
+    "value": "5",
+    "name": "Avant Garde"
+  },
+  {
+    "value": "6",
+    "name": "Mythology"
+  },
+  {
+    "value": "7",
+    "name": "Mystery"
+  },
+  {
+    "value": "8",
+    "name": "Drama"
+  },
+  {
+    "value": "9",
+    "name": "Ecchi"
+  },
+  {
+    "value": "10",
+    "name": "Fantasy"
+  },
+  {
+    "value": "11",
+    "name": "Strategy Game"
+  },
+  {
+    "value": "12",
+    "name": "Hentai"
+  },
+  {
+    "value": "13",
+    "name": "Historical"
+  },
+  {
+    "value": "14",
+    "name": "Horror"
+  },
+  {
+    "value": "15",
+    "name": "Kids"
+  },
+  {
+    "value": "17",
+    "name": "Martial Arts"
+  },
+  {
+    "value": "18",
+    "name": "Mecha"
+  },
+  {
+    "value": "19",
+    "name": "Music"
+  },
+  {
+    "value": "20",
+    "name": "Parody"
+  },
+  {
+    "value": "21",
+    "name": "Samurai"
+  },
+  {
+    "value": "22",
+    "name": "Romance"
+  },
+  {
+    "value": "23",
+    "name": "School"
+  },
+  {
+    "value": "24",
+    "name": "Sci-Fi"
+  },
+  {
+    "value": "25",
+    "name": "Shoujo"
+  },
+  {
+    "value": "26",
+    "name": "Girls Love"
+  },
+  {
+    "value": "27",
+    "name": "Shounen"
+  },
+  {
+    "value": "28",
+    "name": "Boys Love"
+  },
+  {
+    "value": "29",
+    "name": "Space"
+  },
+  {
+    "value": "30",
+    "name": "Sports"
+  },
+  {
+    "value": "31",
+    "name": "Super Power"
+  },
+  {
+    "value": "32",
+    "name": "Vampire"
+  },
+  {
+    "value": "35",
+    "name": "Harem"
+  },
+  {
+    "value": "36",
+    "name": "Slice of Life"
+  },
+  {
+    "value": "37",
+    "name": "Supernatural"
+  },
+  {
+    "value": "38",
+    "name": "Military"
+  },
+  {
+    "value": "39",
+    "name": "Detective"
+  },
+  {
+    "value": "40",
+    "name": "Psychological"
+  },
+  {
+    "value": "41",
+    "name": "Suspense"
+  },
+  {
+    "value": "42",
+    "name": "Seinen"
+  },
+  {
+    "value": "43",
+    "name": "Josei"
+  },
+  {
+    "value": "46",
+    "name": "Award Winning"
+  },
+  {
+    "value": "47",
+    "name": "Gourmet"
+  },
+  {
+    "value": "48",
+    "name": "Workplace"
+  },
+  {
+    "value": "49",
+    "name": "Erotica"
+  },
+  {
+    "value": "50",
+    "name": "Adult Cast"
+  },
+  {
+    "value": "51",
+    "name": "Anthropomorphic"
+  },
+  {
+    "value": "52",
+    "name": "CGDCT"
+  },
+  {
+    "value": "53",
+    "name": "Childcare"
+  },
+  {
+    "value": "54",
+    "name": "Combat Sports"
+  },
+  {
+    "value": "55",
+    "name": "Delinquents"
+  },
+  {
+    "value": "56",
+    "name": "Educational"
+  },
+  {
+    "value": "57",
+    "name": "Gag Humor"
+  },
+  {
+    "value": "58",
+    "name": "Gore"
+  },
+  {
+    "value": "59",
+    "name": "High Stakes Game"
+  },
+  {
+    "value": "60",
+    "name": "Idols (Female)"
+  },
+  {
+    "value": "61",
+    "name": "Idols (Male)"
+  },
+  {
+    "value": "62",
+    "name": "Isekai"
+  },
+  {
+    "value": "63",
+    "name": "Iyashikei (healing)"
+  },
+  {
+    "value": "64",
+    "name": "Love Polygon"
+  },
+  {
+    "value": "65",
+    "name": "Magical Sex Shift"
+  },
+  {
+    "value": "66",
+    "name": "Mahou Shoujo"
+  },
+  {
+    "value": "67",
+    "name": "Medical"
+  },
+  {
+    "value": "68",
+    "name": "Organized Crime"
+  },
+  {
+    "value": "69",
+    "name": "Otaku Culture"
+  },
+  {
+    "value": "70",
+    "name": "Performing Arts"
+  },
+  {
+    "value": "71",
+    "name": "Pets"
+  },
+  {
+    "value": "72",
+    "name": "Reincarnation"
+  },
+  {
+    "value": "73",
+    "name": "Reverse Harem"
+  },
+  {
+    "value": "74",
+    "name": "Romantic Subtext"
+  },
+  {
+    "value": "75",
+    "name": "Showbiz"
+  },
+  {
+    "value": "76",
+    "name": "Survival"
+  },
+  {
+    "value": "77",
+    "name": "Team Sports"
+  },
+  {
+    "value": "78",
+    "name": "Time Travel"
+  },
+  {
+    "value": "79",
+    "name": "Video Game"
+  },
+  {
+    "value": "80",
+    "name": "Visual Arts"
+  },
+  {
+    "value": "81",
+    "name": "Crossdressing"
+  }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Anime Randomizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
+    <script src="./scripts/sidebarManga.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/fetchManga.js" defer></script>
+  </head>
+  <body id="manga">
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="column">
+        <span id="title"><h2>Manga Title</h2></span>
+        <hr />
+        <section>
+          <div class="poster-block">
+            <div class="image-container">
+              <div id="poster"></div>
+            </div>
+
+            <div>
+              <h3>Alt Titles:</h3>
+              <hr />
+              <span id="alt-titles"></span>
+            </div>
+
+            <div class="data">
+              <p><b>Media Type: </b><span id="media-type"></span></p>
+              <p><b>Chapters: </b><span id="chapters"></span></p>
+              <p><b>Volumes: </b><span id="volumes"></span></p>
+              <p><b>Status: </b><span id="status"></span></p>
+              <p><b>Published: </b><span id="published"></span></p>
+              <p><b>Score: </b><span id="score"></span></p>
+              <p><b>Rank: </b><span id="rank"></span></p>
+              <p><b>Themes: </b><span id="themes"></span></p>
+              <p><b>Genres: </b><span id="genres"></span></p>
+            </div>
+          </div>
+
+          <div class="details-block">
+            <p id="synopsis">Synopsis:</p>
+            <span id="trailer"></span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url('/assets/all_saints_street.jpg'); 
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: right 30px bottom;
+}
+
+.group {
+    text-align: center;
+    padding: 20px;
+}
+
+#group1 {
+    flex: 1;
+}
+
+#group2 {
+    flex: 1;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+}
+
+.button  {
+    display: inline-block; /* Change display to inline-block */
+    padding: 20px; /* Reduce padding to 10px */
+    border: 2px black solid;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 24px;
+    box-shadow: 5px 5px gray;
+}
+
+#landing a {
+    color: black;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px gray;
+    z-index: 1000;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#popup div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#popup p {
+    font-size: 18px;
+}
+
+#popup button {
+    width: 120px;
+}

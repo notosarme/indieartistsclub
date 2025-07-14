@@ -1,4 +1,4 @@
 let appHeader = `
-    <h1>Indie Artist Club</h1>
+    <h1>Notosarmë</h1>
 `;
 document.getElementById("app-header").innerHTML = appHeader;
