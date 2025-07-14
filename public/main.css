@@ -12,22 +12,27 @@
 
 html {
   background-color: var(--color-3);
+  height: 100lvh;
+  box-sizing: border-box;
 }
 
 body {
   color: var(--color-4);
   background-color: var(--color-1);
-  min-height: 100%;
-  padding: clamp(.5rem,2vw,3rem);
   font-family: Arial, Helvetica, sans-serif;
 
   border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAJtJREFUOE/tlNsSgCAIRPH/P7qGRhxELtr2mC81pYddQBoRXfTxagoq7+iTUIB7Xn/kJHAqkEAPw9pHwFKZAWW4XqeKp7ORfVFc9YUVE9ofNnp+I7C4sf9T+7zZU1IFXaA6eqRkG+qpgqFe9X/7VZu63RFWvypS1gHp3S9l9g1WQNqnu1A9hKZramfACdCmwrX/BqjBYyAjoOXsDWlfagG0oHovAAAAAElFTkSuQmCC') 7 /  7px / 0 round;
   border-width:  7px;
   border-style:  solid; 
+  height: calc(100% - clamp(.5rem,2lvw,3rem));
+}
+
+.container {
+  padding: 1rem;
 }
 
 img {
-  max-width: 80vw;
+  max-width: 80lvw;
 }
 
 

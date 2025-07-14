@@ -1,10 +1,11 @@
 body {
-  margin: 0;
   padding: 0;
-  height: 100vh;
+}
+
+#mal-container {
   display: flex;
-  box-sizing: border-box;
-  overflow: hidden;
+  flex-direction: row;
+  height: 100%;
 }
 
 h1, h2, h3 {
@@ -14,13 +15,13 @@ h1, h2, h3 {
 /* Sidebar */
 .sidebar {
   width: 225px;
-  height: 100%;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--color-3);
+  color: var(--color-1);
   padding: 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  border-right: 2px solid black;
 }
 
 
@@ -45,6 +46,9 @@ hr {
 }
 
 /* Main Content Container */
+#title { width: fit-content; }
+#title a { color: var(--color-4); }
+
 .main-content {
   flex: 1;
   display: flex;
@@ -93,7 +97,7 @@ section {
 #poster img {
   width: 225px;
   height: 305px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .image-container {

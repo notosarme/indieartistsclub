@@ -66,8 +66,10 @@ let animeData = {
   year: 2000,
 };
 
-// Function to construct the API URL based on selected filters
+// Construct the API URL
 function generateURL() {
+  clearDisplay();
+  title.innerHTML = `<h2>Loading...</h2>`;
   const url = `https://api.jikan.moe/v4/anime`;
   let filters = [];
   let typeFilter = document.getElementById("type-filter").value;
@@ -89,7 +91,7 @@ function generateURL() {
   validateFetchData(filteredURL);
 }
 
-// Function to validate and fetch data from the constructed URL
+// Validate and fetch data
 function validateFetchData(url) {
   fetch(url)
     .then((resp) => resp.json())
@@ -106,7 +108,7 @@ function validateFetchData(url) {
     });
 }
 
-// Function to fetch random anime data from the API
+// Fetch data from the API
 function getData(url) {
   let random;
   if (lastPageNumber === 1) {
@@ -130,7 +132,7 @@ function getData(url) {
     });
 }
 
-// Function to update the HTML with fetched anime data
+// Update the HTML with fetched data
 function updateHTML() {
   clearDisplay();
 
@@ -180,13 +182,13 @@ function updateHTML() {
   }
 }
 
-// Function to display no result found
+// No result found
 function displayNoResult() {
   clearDisplay();
   console.log("No results found.");
 }
 
-// Function to clear the display
+// Clear the display
 function clearDisplay() {
   title.innerHTML = "";
   img.innerHTML = "";

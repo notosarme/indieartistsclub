@@ -1,13 +1,13 @@
 
-// Function to populate the genre dropdown from a JSON file
+// Populate the genre dropdown from JSON 
 function generateGenreList() {
   let selectElement = document.getElementById("genre-filter");
-  const genreListJson = "/data/animeGenres.json";
+  const genreListJson = "./data/animeGenres.json";
 
   fetch(genreListJson)
     .then((response) => {
       if (!response.ok) {
-        throw new Error("Network response was not ok " + response.statusText);
+        throw new Error("NETWORK ERROR: " + response.statusText);
       }
       return response.json();
     })
@@ -21,14 +21,14 @@ function generateGenreList() {
     })
     .catch((error) => {
       console.error(
-        "There has been a problem with your fetch operation:",
+        "GENRE FETCHING ERROR: ",
         error
       );
     });
 }
 
 
-// Event listener to generate genre list and set up fetch button event
+// Event listener to generate genre list
 document.addEventListener("DOMContentLoaded", function () {
   generateGenreList();
 });
