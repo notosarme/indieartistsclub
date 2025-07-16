@@ -12,6 +12,17 @@ function generateGenreList() {
       return response.json();
     })
     .then((data) => {
+      // Sort by alphabet
+      data.sort((a, b) => {
+        if (a.name < b.name) { return -1; }
+        if (a.name > b.name) { return 1; }
+        return 0;
+      });
+      // Put any genre back on top
+      data.sort((a, b) => {
+        if (b.value == "") return 1;
+      });
+
       data.forEach((genre) => {
         const optionElement = document.createElement("option");
         optionElement.value = genre.value;
