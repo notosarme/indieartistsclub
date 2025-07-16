@@ -1,4 +1,3 @@
-// Cache DOM elements to avoid redundant lookups
 const sidebar = document.getElementById("sidebar");
 const title = document.getElementById("title");
 const img = document.getElementById("poster");
@@ -15,7 +14,7 @@ const genres = document.getElementById("genres");
 const published = document.getElementById("published");
 let lastPageNumber = 1;
 
-// Default manga data structure
+// Manga data structure
 let mangaData = {
   mal_id: 0,
   url: "string",
@@ -48,8 +47,10 @@ let mangaData = {
 };
 
 
-// Function to construct the API URL based on selected filters
+// Construct the API URL based on filters
 function generateURL() {
+  clearDisplay();
+  title.innerHTML = `<h2>Loading...</h2>`;
   const url = `https://api.jikan.moe/v4/manga`;
   let filters = [];
   let typeFilter = document.getElementById("type-filter").value;
@@ -70,7 +71,7 @@ function generateURL() {
   validateFetchData(filteredURL);
 }
 
-// Function to validate and fetch data from the constructed URL
+// Validate and fetch data from the constructed URL
 function validateFetchData(url) {
   fetch(url)
     .then((resp) => resp.json())
@@ -87,7 +88,7 @@ function validateFetchData(url) {
     });
 }
 
-// Function to fetch random anime data from the API
+// Fetch random manga data from the API
 function getData(url) {
   let random;
   if (lastPageNumber === 1) {
@@ -111,7 +112,7 @@ function getData(url) {
     });
 }
 
-// Function to update the HTML with fetched anime data
+// Update the HTML
 function updateHTML() {
   clearDisplay();
   console.log(mangaData.themes)
@@ -152,13 +153,13 @@ function updateHTML() {
       : "Unknown";
 }
 
-// Function to display no result found
+// Display no result found
 function displayNoResult() {
   clearDisplay();
   console.log("No results found.");
 }
 
-// Function to clear the display
+// Clear the display
 function clearDisplay() {
   title.innerHTML = "";
   img.innerHTML = "";
@@ -175,7 +176,7 @@ function clearDisplay() {
   published.innerHTML = "";
 }
 
-// Event listener to generate genre list and set up fetch button event
+// Event listener
 document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("fetchButton")

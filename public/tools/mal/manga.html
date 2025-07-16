@@ -3,52 +3,95 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Anime Randomizer</title>
+    <title>Manga Randomizer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
-    <script src="./scripts/sidebarManga.js" defer></script>
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/fetchManga.js" defer></script>
   </head>
-  <body id="manga">
-    <!-- Sidebar -->
-    <div id="sidebar" class="sidebar"></div>
-
-    <!-- Main Content -->
-    <div class="main-content">
-      <div class="column">
-        <span id="title"><h2>Manga Title</h2></span>
-        <hr />
-        <section>
-          <div class="poster-block">
-            <div class="image-container">
-              <div id="poster"></div>
+  <body>
+    <div id="mal-container">
+      <!-- Sidebar -->
+      <div id="sidebar" class="sidebar">
+        <h1>Randomizer Settings</h1>
+        <div class="filter-options">
+          <select id="type-filter">
+            <option value="">Any Type</option>
+            <option value="manga">Manga</option>
+            <option value="novel">Novel</option>
+            <option value="lightnovel">Light Novel</option>
+            <option value="oneshot">Oneshot</option>
+            <option value="doujin">Doujin</option>
+            <option value="manhwa">Manhwa</option>
+            <option value="manhua">Manhua</option>
+          </select>
+          <select id="rating-filter">
+            <option value="sfw">SFW</option>
+            <option value="">Any Rating</option>
+          </select>
+          <select id="genre-filter"></select>
+          <select id="min-range">
+            <option value="">Select a Minimum Score</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+          </select>
+          <select id="max-range">
+            <option value="">Select a Maximum Score</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <button id="fetchButton">Randomize!</button>
+      
+      </div>
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="column">
+          <span id="title"><h2>Manga Title (links to MAL)</h2></span>
+          <hr />
+          <section>
+            <div class="poster-block">
+              <div class="image-container">
+                <div id="poster"></div>
+              </div>
+              <div>
+                <h3>Alt Titles:</h3>
+                <hr />
+                <span id="alt-titles"></span>
+              </div>
+              <div class="data">
+                <p><b>Media Type: </b><span id="media-type"></span></p>
+                <p><b>Chapters: </b><span id="chapters"></span></p>
+                <p><b>Volumes: </b><span id="volumes"></span></p>
+                <p><b>Status: </b><span id="status"></span></p>
+                <p><b>Published: </b><span id="published"></span></p>
+                <p><b>Score: </b><span id="score"></span></p>
+                <p><b>Rank: </b><span id="rank"></span></p>
+                <p><b>Themes: </b><span id="themes"></span></p>
+                <p><b>Genres: </b><span id="genres"></span></p>
+              </div>
             </div>
-
-            <div>
-              <h3>Alt Titles:</h3>
-              <hr />
-              <span id="alt-titles"></span>
+            <div class="details-block">
+              <p id="synopsis">Synopsis:</p>
+              <span id="trailer"></span>
             </div>
-
-            <div class="data">
-              <p><b>Media Type: </b><span id="media-type"></span></p>
-              <p><b>Chapters: </b><span id="chapters"></span></p>
-              <p><b>Volumes: </b><span id="volumes"></span></p>
-              <p><b>Status: </b><span id="status"></span></p>
-              <p><b>Published: </b><span id="published"></span></p>
-              <p><b>Score: </b><span id="score"></span></p>
-              <p><b>Rank: </b><span id="rank"></span></p>
-              <p><b>Themes: </b><span id="themes"></span></p>
-              <p><b>Genres: </b><span id="genres"></span></p>
-            </div>
-          </div>
-
-          <div class="details-block">
-            <p id="synopsis">Synopsis:</p>
-            <span id="trailer"></span>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
     </div>
   </body>
